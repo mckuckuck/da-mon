@@ -1,0 +1,72 @@
+/*
+ * Slalom — alternating media + text content section.
+ * Extracted from https://www.mongodb.com/products/platform/cloud and /products/platform/atlas-database.
+ * Content model: row 1 = text (heading + body + optional CTA), row 2 = image.
+ * Variant: .slalom.media-left flips the image to the leading column on desktop.
+ */
+
+.slalom {
+  display: flex;
+  flex-direction: column;
+  gap: var(--mdb-space-lg);
+  padding: var(--mdb-space-2xl) var(--mdb-space-lg);
+  color: var(--mdb-text-primary);
+}
+
+.slalom > div {
+  display: flex;
+  flex-direction: column;
+  gap: var(--mdb-space-md);
+}
+
+.slalom h2 {
+  font-family: var(--mdb-font-body);
+  font-size: var(--mdb-fs-h2-compact);
+  font-weight: var(--mdb-fw-medium);
+  line-height: 32px;
+  color: var(--mdb-text-primary);
+  margin: 0;
+}
+
+.slalom .slalom-text p {
+  font-family: var(--mdb-font-body);
+  font-size: var(--mdb-fs-body);
+  font-weight: var(--mdb-fw-regular);
+  color: var(--mdb-text-primary);
+  margin: 0;
+}
+
+.slalom img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* CTA — secondary outline style observed on these sections */
+.slalom .slalom-text .button,
+.slalom .slalom-text a.button {
+  display: inline-block;
+  font-family: var(--mdb-font-body);
+  font-size: var(--mdb-fs-body);
+  font-weight: var(--mdb-fw-medium);
+  color: var(--mdb-text-primary);
+  text-decoration: none;
+  padding: var(--mdb-space-sm) var(--mdb-space-lg);
+  border: 1px solid var(--mdb-evergreen);
+  border-radius: var(--mdb-radius-sm);
+  width: fit-content;
+}
+
+@media (width >= 900px) {
+  .slalom {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--mdb-space-3xl);
+  padding: 96px var(--mdb-space-lg) var(--mdb-space-2xl);
+}
+
+  .slalom > div { flex: 1; }
+
+  /* image-leading variant: visually move the media column first */
+  .slalom.media-left > div:last-child { order: -1; }
+}

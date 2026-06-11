@@ -1,0 +1,76 @@
+/*
+ * Pathfinder — guided "start here / more information" panel.
+ * From the homepage "Your AI Data Platform is Ready" two-column panel.
+ * Content model: heading row, then 2 columns — primary (label + title + desc + CTA)
+ * and secondary (label + link list).
+ */
+
+.pathfinder {
+  display: flex;
+  flex-direction: column;
+  gap: var(--mdb-space-lg);
+  padding: var(--mdb-space-2xl) var(--mdb-space-lg);
+  background: var(--mdb-surface-evergreen);
+  color: var(--mdb-text-on-dark);
+  border-radius: var(--mdb-radius-lg);
+  font-family: var(--mdb-font-body);
+}
+
+.pathfinder .pathfinder-label {
+  font-size: var(--mdb-fs-eyebrow);
+  font-weight: var(--mdb-fw-semibold);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--mdb-green-base);
+  margin-bottom: var(--mdb-space-2xs);
+}
+
+.pathfinder h2,
+.pathfinder h3 {
+  font-family: var(--mdb-font-heading);
+  font-weight: var(--mdb-fw-regular);
+  color: var(--mdb-text-on-dark);
+  margin: 0 0 var(--mdb-space-sm);
+}
+
+.pathfinder h3 { font-size: var(--mdb-fs-h3); }
+
+.pathfinder p {
+  font-size: var(--mdb-fs-body);
+  color: var(--mdb-text-on-dark);
+  margin: 0 0 var(--mdb-space-md);
+}
+
+.pathfinder a.button {
+  display: inline-block;
+  font-weight: var(--mdb-fw-medium);
+  text-decoration: none;
+  padding: var(--mdb-space-sm) var(--mdb-space-lg);
+  border-radius: var(--mdb-radius-sm);
+  color: var(--mdb-evergreen);
+  background: var(--mdb-green-base);
+}
+
+.pathfinder ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.pathfinder li { margin-bottom: var(--mdb-space-2xs); }
+
+.pathfinder li a {
+  color: var(--mdb-text-on-dark);
+  text-decoration: none;
+  display: inline-flex;
+  gap: var(--mdb-space-2xs);
+  align-items: center;
+}
+.pathfinder li a:hover { color: var(--mdb-green-base); }
+
+@media (width >= 900px) {
+  .pathfinder .pathfinder-cols {
+  display: flex;
+  gap: var(--mdb-space-3xl);
+}
+  .pathfinder .pathfinder-cols > div { flex: 1; }
+}

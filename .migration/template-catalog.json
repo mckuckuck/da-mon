@@ -1,0 +1,1662 @@
+{
+  "templates": [
+    {
+      "name": "marketing-landing",
+      "representativePages": [
+        "https://www.mongodb.com/",
+        "https://www.mongodb.com/de-de/solutions/industries/financial-services",
+        "https://www.mongodb.com/company/contact",
+        "https://www.mongodb.com/company/careers/how-to-avoid-recruiting-scams"
+      ],
+      "urls": [
+        "https://www.mongodb.com/",
+        "https://www.mongodb.com/company/careers/how-to-avoid-recruiting-scams",
+        "https://www.mongodb.com/company/contact",
+        "https://www.mongodb.com/company/leadership",
+        "https://www.mongodb.com/company/leadership-principles",
+        "https://www.mongodb.com/company/office-locations",
+        "https://www.mongodb.com/company/our-story",
+        "https://www.mongodb.com/company/partners",
+        "https://www.mongodb.com/company/values",
+        "https://www.mongodb.com/de-de/company/partners",
+        "https://www.mongodb.com/de-de/products/capabilities/security",
+        "https://www.mongodb.com/de-de/products/capabilities/time-series",
+        "https://www.mongodb.com/de-de/products/integrations/connectors",
+        "https://www.mongodb.com/de-de/products/integrations/kubernetes/atlas-kubernetes-operator",
+        "https://www.mongodb.com/de-de/products/platform/trust",
+        "https://www.mongodb.com/de-de/products/tools",
+        "https://www.mongodb.com/de-de/products/tools/atlas-cli",
+        "https://www.mongodb.com/de-de/products/tools/cloud-manager",
+        "https://www.mongodb.com/de-de/products/tools/mongodb-query-api",
+        "https://www.mongodb.com/de-de/products/tools/mongosync",
+        "https://www.mongodb.com/de-de/products/tools/relational-migrator",
+        "https://www.mongodb.com/de-de/solutions/industries/financial-services",
+        "https://www.mongodb.com/de-de/solutions/industries/healthcare",
+        "https://www.mongodb.com/de-de/solutions/industries/manufacturing",
+        "https://www.mongodb.com/de-de/solutions/industries/public-sector",
+        "https://www.mongodb.com/de-de/solutions/industries/retail",
+        "https://www.mongodb.com/de-de/solutions/industries/telecommunications",
+        "https://www.mongodb.com/de-de/solutions/use-cases/artificial-intelligence",
+        "https://www.mongodb.com/de-de/solutions/use-cases/edge-computing",
+        "https://www.mongodb.com/de-de/solutions/use-cases/internet-of-things",
+        "https://www.mongodb.com/de-de/solutions/use-cases/serverless",
+        "https://www.mongodb.com/es/company/partners",
+        "https://www.mongodb.com/es/products/capabilities/security",
+        "https://www.mongodb.com/es/products/capabilities/time-series",
+        "https://www.mongodb.com/es/products/integrations/connectors",
+        "https://www.mongodb.com/es/products/integrations/kubernetes/atlas-kubernetes-operator",
+        "https://www.mongodb.com/es/products/platform/trust",
+        "https://www.mongodb.com/es/products/tools",
+        "https://www.mongodb.com/es/products/tools/atlas-cli",
+        "https://www.mongodb.com/es/products/tools/cloud-manager",
+        "https://www.mongodb.com/es/products/tools/mongodb-query-api",
+        "https://www.mongodb.com/es/products/tools/mongosync",
+        "https://www.mongodb.com/es/products/tools/relational-migrator",
+        "https://www.mongodb.com/es/solutions/industries/financial-services",
+        "https://www.mongodb.com/es/solutions/industries/healthcare",
+        "https://www.mongodb.com/es/solutions/industries/manufacturing",
+        "https://www.mongodb.com/es/solutions/industries/public-sector",
+        "https://www.mongodb.com/es/solutions/industries/retail",
+        "https://www.mongodb.com/es/solutions/industries/telecommunications",
+        "https://www.mongodb.com/es/solutions/use-cases/artificial-intelligence",
+        "https://www.mongodb.com/es/solutions/use-cases/edge-computing",
+        "https://www.mongodb.com/es/solutions/use-cases/internet-of-things",
+        "https://www.mongodb.com/es/solutions/use-cases/serverless",
+        "https://www.mongodb.com/events/mongodb-world",
+        "https://www.mongodb.com/fr-fr/company/partners",
+        "https://www.mongodb.com/fr-fr/products/capabilities/security",
+        "https://www.mongodb.com/fr-fr/products/capabilities/time-series",
+        "https://www.mongodb.com/fr-fr/products/integrations/connectors",
+        "https://www.mongodb.com/fr-fr/products/integrations/kubernetes/atlas-kubernetes-operator",
+        "https://www.mongodb.com/fr-fr/products/platform/trust",
+        "https://www.mongodb.com/fr-fr/products/tools",
+        "https://www.mongodb.com/fr-fr/products/tools/atlas-cli",
+        "https://www.mongodb.com/fr-fr/products/tools/cloud-manager",
+        "https://www.mongodb.com/fr-fr/products/tools/mongodb-query-api",
+        "https://www.mongodb.com/fr-fr/products/tools/mongosync",
+        "https://www.mongodb.com/fr-fr/products/tools/relational-migrator",
+        "https://www.mongodb.com/fr-fr/solutions/industries/financial-services",
+        "https://www.mongodb.com/fr-fr/solutions/industries/healthcare",
+        "https://www.mongodb.com/fr-fr/solutions/industries/manufacturing",
+        "https://www.mongodb.com/fr-fr/solutions/industries/public-sector",
+        "https://www.mongodb.com/fr-fr/solutions/industries/retail",
+        "https://www.mongodb.com/fr-fr/solutions/industries/telecommunications",
+        "https://www.mongodb.com/fr-fr/solutions/use-cases/artificial-intelligence",
+        "https://www.mongodb.com/fr-fr/solutions/use-cases/edge-computing",
+        "https://www.mongodb.com/fr-fr/solutions/use-cases/internet-of-things",
+        "https://www.mongodb.com/fr-fr/solutions/use-cases/serverless",
+        "https://www.mongodb.com/it-it/company/partners",
+        "https://www.mongodb.com/it-it/products/capabilities/security",
+        "https://www.mongodb.com/it-it/products/capabilities/time-series",
+        "https://www.mongodb.com/it-it/products/integrations/connectors",
+        "https://www.mongodb.com/it-it/products/integrations/kubernetes/atlas-kubernetes-operator",
+        "https://www.mongodb.com/it-it/products/platform/trust",
+        "https://www.mongodb.com/it-it/products/tools",
+        "https://www.mongodb.com/it-it/products/tools/atlas-cli",
+        "https://www.mongodb.com/it-it/products/tools/cloud-manager",
+        "https://www.mongodb.com/it-it/products/tools/mongodb-query-api",
+        "https://www.mongodb.com/it-it/products/tools/mongosync",
+        "https://www.mongodb.com/it-it/products/tools/relational-migrator",
+        "https://www.mongodb.com/it-it/solutions/industries/financial-services",
+        "https://www.mongodb.com/it-it/solutions/industries/healthcare",
+        "https://www.mongodb.com/it-it/solutions/industries/manufacturing",
+        "https://www.mongodb.com/it-it/solutions/industries/public-sector",
+        "https://www.mongodb.com/it-it/solutions/industries/retail",
+        "https://www.mongodb.com/it-it/solutions/industries/telecommunications",
+        "https://www.mongodb.com/it-it/solutions/use-cases/artificial-intelligence",
+        "https://www.mongodb.com/it-it/solutions/use-cases/edge-computing",
+        "https://www.mongodb.com/it-it/solutions/use-cases/internet-of-things",
+        "https://www.mongodb.com/it-it/solutions/use-cases/serverless",
+        "https://www.mongodb.com/ja-jp/products/platform/atlas-vector-search",
+        "https://www.mongodb.com/ko-kr/company/partners",
+        "https://www.mongodb.com/ko-kr/products/capabilities/security",
+        "https://www.mongodb.com/ko-kr/products/capabilities/time-series",
+        "https://www.mongodb.com/ko-kr/products/integrations/connectors",
+        "https://www.mongodb.com/ko-kr/products/integrations/kubernetes/atlas-kubernetes-operator",
+        "https://www.mongodb.com/ko-kr/products/platform/trust",
+        "https://www.mongodb.com/ko-kr/products/tools",
+        "https://www.mongodb.com/ko-kr/products/tools/atlas-cli",
+        "https://www.mongodb.com/ko-kr/products/tools/cloud-manager",
+        "https://www.mongodb.com/ko-kr/products/tools/mongodb-query-api",
+        "https://www.mongodb.com/ko-kr/products/tools/mongosync",
+        "https://www.mongodb.com/ko-kr/products/tools/relational-migrator",
+        "https://www.mongodb.com/ko-kr/solutions/industries/financial-services",
+        "https://www.mongodb.com/ko-kr/solutions/industries/healthcare",
+        "https://www.mongodb.com/ko-kr/solutions/industries/manufacturing",
+        "https://www.mongodb.com/ko-kr/solutions/industries/public-sector",
+        "https://www.mongodb.com/ko-kr/solutions/industries/retail",
+        "https://www.mongodb.com/ko-kr/solutions/industries/telecommunications",
+        "https://www.mongodb.com/ko-kr/solutions/use-cases/artificial-intelligence",
+        "https://www.mongodb.com/ko-kr/solutions/use-cases/edge-computing",
+        "https://www.mongodb.com/ko-kr/solutions/use-cases/internet-of-things",
+        "https://www.mongodb.com/ko-kr/solutions/use-cases/modernize",
+        "https://www.mongodb.com/ko-kr/solutions/use-cases/serverless",
+        "https://www.mongodb.com/legal/privacy",
+        "https://www.mongodb.com/products",
+        "https://www.mongodb.com/products/capabilities/serverless",
+        "https://www.mongodb.com/products/integrations/aws-cloudformation",
+        "https://www.mongodb.com/products/integrations/bi-connector",
+        "https://www.mongodb.com/products/integrations/connectors",
+        "https://www.mongodb.com/products/integrations/kubernetes",
+        "https://www.mongodb.com/products/integrations/kubernetes/atlas-kubernetes-operator",
+        "https://www.mongodb.com/products/platform/atlas-cloud-providers/google-cloud",
+        "https://www.mongodb.com/products/platform/atlas-vector-search",
+        "https://www.mongodb.com/products/platform/dedicated-clusters",
+        "https://www.mongodb.com/products/platform/trust",
+        "https://www.mongodb.com/products/tools",
+        "https://www.mongodb.com/products/tools/atlas-cli",
+        "https://www.mongodb.com/products/tools/cloud-manager",
+        "https://www.mongodb.com/products/tools/mongodb-query-api",
+        "https://www.mongodb.com/products/tools/mongosync",
+        "https://www.mongodb.com/pt-br/company/partners",
+        "https://www.mongodb.com/pt-br/products/capabilities/security",
+        "https://www.mongodb.com/pt-br/products/capabilities/time-series",
+        "https://www.mongodb.com/pt-br/products/integrations/connectors",
+        "https://www.mongodb.com/pt-br/products/integrations/kubernetes/atlas-kubernetes-operator",
+        "https://www.mongodb.com/pt-br/products/platform/trust",
+        "https://www.mongodb.com/pt-br/products/tools",
+        "https://www.mongodb.com/pt-br/products/tools/atlas-cli",
+        "https://www.mongodb.com/pt-br/products/tools/cloud-manager",
+        "https://www.mongodb.com/pt-br/products/tools/mongodb-query-api",
+        "https://www.mongodb.com/pt-br/products/tools/mongosync",
+        "https://www.mongodb.com/pt-br/products/tools/relational-migrator",
+        "https://www.mongodb.com/pt-br/resources/basics/multicloud",
+        "https://www.mongodb.com/pt-br/solutions/industries/financial-services",
+        "https://www.mongodb.com/pt-br/solutions/industries/healthcare",
+        "https://www.mongodb.com/pt-br/solutions/industries/manufacturing",
+        "https://www.mongodb.com/pt-br/solutions/industries/public-sector",
+        "https://www.mongodb.com/pt-br/solutions/industries/retail",
+        "https://www.mongodb.com/pt-br/solutions/industries/telecommunications",
+        "https://www.mongodb.com/pt-br/solutions/use-cases/artificial-intelligence",
+        "https://www.mongodb.com/pt-br/solutions/use-cases/edge-computing",
+        "https://www.mongodb.com/pt-br/solutions/use-cases/internet-of-things",
+        "https://www.mongodb.com/pt-br/solutions/use-cases/modernize",
+        "https://www.mongodb.com/pt-br/solutions/use-cases/serverless",
+        "https://www.mongodb.com/resources/basics/application-modernization",
+        "https://www.mongodb.com/resources/basics/big-data-explained/big-data-analytics",
+        "https://www.mongodb.com/resources/basics/cloud-explained/business-intelligence-bi-tools",
+        "https://www.mongodb.com/resources/basics/cloud-explained/cloud-computing-stack",
+        "https://www.mongodb.com/resources/basics/cloud-explained/data-warehouse",
+        "https://www.mongodb.com/resources/basics/cloud-explained/faas",
+        "https://www.mongodb.com/resources/basics/cloud-explained/iaas-infrastructure-as-a-service",
+        "https://www.mongodb.com/resources/basics/cloud-explained/iot-architecture",
+        "https://www.mongodb.com/resources/basics/cloud-explained/paas-platform-as-a-service",
+        "https://www.mongodb.com/resources/basics/cloud-explained/saas-software-as-a-service",
+        "https://www.mongodb.com/resources/basics/cloud-explained/virtual-machines",
+        "https://www.mongodb.com/resources/basics/cloud-explained/virtual-private-cloud",
+        "https://www.mongodb.com/resources/basics/databases/cloud-databases/cloud-migration",
+        "https://www.mongodb.com/resources/basics/databases/ephemeral-storage",
+        "https://www.mongodb.com/resources/basics/databases/security",
+        "https://www.mongodb.com/resources/basics/unstructured-data/schemaless",
+        "https://www.mongodb.com/resources/basics/unstructured-data/storage",
+        "https://www.mongodb.com/resources/basics/unstructured-data/tools",
+        "https://www.mongodb.com/resources/compare/hadoop-vs-mongodb",
+        "https://www.mongodb.com/resources/compare/mongodb-mysql",
+        "https://www.mongodb.com/resources/compare/mongodb-postgresql/dsl-migrating-postgres-to-mongodb",
+        "https://www.mongodb.com/resources/languages/mongoengine-pymongo",
+        "https://www.mongodb.com/resources/products/capabilities",
+        "https://www.mongodb.com/resources/products/compatibilities/angular",
+        "https://www.mongodb.com/resources/products/compatibilities/compatibility",
+        "https://www.mongodb.com/resources/products/compatibilities/express",
+        "https://www.mongodb.com/resources/products/compatibilities/kubernetes",
+        "https://www.mongodb.com/resources/products/compatibilities/mongodb-laravel-integration",
+        "https://www.mongodb.com/resources/products/compatibilities/mongodb-tableau",
+        "https://www.mongodb.com/resources/products/compatibilities/search-api",
+        "https://www.mongodb.com/resources/products/compatibilities/setting-up-flask-with-mongodb",
+        "https://www.mongodb.com/resources/products/compatibilities/using-typescript-with-mongodb-tutorial",
+        "https://www.mongodb.com/resources/products/early-access",
+        "https://www.mongodb.com/services/consulting/ai-accelerator",
+        "https://www.mongodb.com/services/consulting/major-version-upgrade",
+        "https://www.mongodb.com/services/consulting/relational-migration-methodology",
+        "https://www.mongodb.com/services/support/mongoose-odm-support",
+        "https://www.mongodb.com/solutions/industries/financial-services",
+        "https://www.mongodb.com/solutions/industries/financial-services/capital-markets",
+        "https://www.mongodb.com/solutions/industries/financial-services/core-banking",
+        "https://www.mongodb.com/solutions/industries/financial-services/fraud-prevention",
+        "https://www.mongodb.com/solutions/industries/financial-services/lending-leasing",
+        "https://www.mongodb.com/solutions/industries/healthcare",
+        "https://www.mongodb.com/solutions/industries/healthcare/interoperability",
+        "https://www.mongodb.com/solutions/industries/insurance",
+        "https://www.mongodb.com/solutions/industries/manufacturing",
+        "https://www.mongodb.com/solutions/industries/media-and-entertainment",
+        "https://www.mongodb.com/solutions/industries/public-sector",
+        "https://www.mongodb.com/solutions/industries/telecommunications",
+        "https://www.mongodb.com/solutions/use-cases/artificial-intelligence",
+        "https://www.mongodb.com/solutions/use-cases/edge-and-mobile",
+        "https://www.mongodb.com/solutions/use-cases/esg",
+        "https://www.mongodb.com/solutions/use-cases/gaming",
+        "https://www.mongodb.com/solutions/use-cases/intelligent-search",
+        "https://www.mongodb.com/solutions/use-cases/internet-of-things",
+        "https://www.mongodb.com/solutions/use-cases/mainframe-modernization",
+        "https://www.mongodb.com/solutions/use-cases/payments",
+        "https://www.mongodb.com/solutions/use-cases/serverless",
+        "https://www.mongodb.com/solutions/use-cases/single-view"
+      ],
+      "description": "Top-level marketing/landing pages: hero, feature grids, CTA sections (homepage, industries, use-cases, product/company landing pages)"
+    },
+    {
+      "name": "product-feature-page",
+      "representativePages": [
+        "https://www.mongodb.com/company",
+        "https://www.mongodb.com/company/partners/capgemini",
+        "https://www.mongodb.com/products/self-managed/community-edition",
+        "https://www.mongodb.com/de-de/resources/basics/databases/nosql-explained",
+        "https://www.mongodb.com/events/aws-reinvent/live-from-aws-reinvent-alloy-automation"
+      ],
+      "urls": [
+        "https://www.mongodb.com/company",
+        "https://www.mongodb.com/company/partners/capgemini",
+        "https://www.mongodb.com/company/research",
+        "https://www.mongodb.com/company/ventures",
+        "https://www.mongodb.com/de-de/products/integrations/spark-connector",
+        "https://www.mongodb.com/de-de/products/platform/atlas-data-federation",
+        "https://www.mongodb.com/de-de/products/platform/atlas-database",
+        "https://www.mongodb.com/de-de/products/platform/atlas-online-archive",
+        "https://www.mongodb.com/de-de/products/platform/atlas-search",
+        "https://www.mongodb.com/de-de/products/self-managed/enterprise-advanced",
+        "https://www.mongodb.com/de-de/products/tools/shell/features",
+        "https://www.mongodb.com/de-de/products/tools/vs-code",
+        "https://www.mongodb.com/de-de/resources/basics/databases/cloud-databases/free-cloud-database",
+        "https://www.mongodb.com/de-de/resources/basics/databases/nosql-explained",
+        "https://www.mongodb.com/de-de/solutions/industries",
+        "https://www.mongodb.com/de-de/solutions/startups",
+        "https://www.mongodb.com/es/products/integrations/spark-connector",
+        "https://www.mongodb.com/es/products/platform/atlas-data-federation",
+        "https://www.mongodb.com/es/products/platform/atlas-database",
+        "https://www.mongodb.com/es/products/platform/atlas-search",
+        "https://www.mongodb.com/es/products/platform/atlas-sql-interface",
+        "https://www.mongodb.com/es/products/self-managed/enterprise-advanced",
+        "https://www.mongodb.com/es/products/tools/shell",
+        "https://www.mongodb.com/es/products/tools/shell/features",
+        "https://www.mongodb.com/es/products/tools/vs-code",
+        "https://www.mongodb.com/es/resources/basics/databases/cloud-databases/free-cloud-database",
+        "https://www.mongodb.com/es/resources/basics/databases/nosql-explained",
+        "https://www.mongodb.com/es/solutions/industries",
+        "https://www.mongodb.com/es/solutions/startups",
+        "https://www.mongodb.com/events/aws-reinvent",
+        "https://www.mongodb.com/events/aws-reinvent/live-from-aws-reinvent-alloy-automation",
+        "https://www.mongodb.com/events/aws-reinvent/live-from-aws-reinvent-okta",
+        "https://www.mongodb.com/events/aws-reinvent/live-from-aws-reinvent-veerum",
+        "https://www.mongodb.com/events/aws-reinvent/live-from-aws-reinvent-vercel",
+        "https://www.mongodb.com/events/mongodb-at-the-ai-summit-ny",
+        "https://www.mongodb.com/events/mongodb-google-cloud-next",
+        "https://www.mongodb.com/events/mongodb-innovation-awards/apac",
+        "https://www.mongodb.com/events/mongodb-local/dallas",
+        "https://www.mongodb.com/events/mongodb-local/mumbai",
+        "https://www.mongodb.com/events/mongodb-local/socal",
+        "https://www.mongodb.com/events/mongodb-local/toronto",
+        "https://www.mongodb.com/fr-fr/products/integrations/spark-connector",
+        "https://www.mongodb.com/fr-fr/products/platform/atlas-data-federation",
+        "https://www.mongodb.com/fr-fr/products/platform/atlas-database",
+        "https://www.mongodb.com/fr-fr/products/platform/atlas-online-archive",
+        "https://www.mongodb.com/fr-fr/products/platform/atlas-search",
+        "https://www.mongodb.com/fr-fr/products/platform/atlas-sql-interface",
+        "https://www.mongodb.com/fr-fr/products/self-managed/enterprise-advanced",
+        "https://www.mongodb.com/fr-fr/products/tools/shell",
+        "https://www.mongodb.com/fr-fr/products/tools/shell/features",
+        "https://www.mongodb.com/fr-fr/products/tools/vs-code",
+        "https://www.mongodb.com/fr-fr/resources/basics/databases/cloud-databases/free-cloud-database",
+        "https://www.mongodb.com/fr-fr/resources/basics/databases/nosql-explained",
+        "https://www.mongodb.com/fr-fr/solutions/industries",
+        "https://www.mongodb.com/fr-fr/solutions/startups",
+        "https://www.mongodb.com/it-it/products/integrations/spark-connector",
+        "https://www.mongodb.com/it-it/products/platform/atlas-data-federation",
+        "https://www.mongodb.com/it-it/products/platform/atlas-database",
+        "https://www.mongodb.com/it-it/products/platform/atlas-online-archive",
+        "https://www.mongodb.com/it-it/products/platform/atlas-search",
+        "https://www.mongodb.com/it-it/products/platform/atlas-sql-interface",
+        "https://www.mongodb.com/it-it/products/self-managed/enterprise-advanced",
+        "https://www.mongodb.com/it-it/products/tools/shell/features",
+        "https://www.mongodb.com/it-it/products/tools/vs-code",
+        "https://www.mongodb.com/it-it/resources/basics/databases/cloud-databases/free-cloud-database",
+        "https://www.mongodb.com/it-it/resources/basics/databases/nosql-explained",
+        "https://www.mongodb.com/it-it/solutions/industries",
+        "https://www.mongodb.com/it-it/solutions/startups",
+        "https://www.mongodb.com/ja-jp/products/platform/atlas-cloud-providers/aws",
+        "https://www.mongodb.com/ja-jp/products/platform/atlas-search",
+        "https://www.mongodb.com/ko-kr/products/integrations/spark-connector",
+        "https://www.mongodb.com/ko-kr/products/platform/atlas-data-federation",
+        "https://www.mongodb.com/ko-kr/products/platform/atlas-database",
+        "https://www.mongodb.com/ko-kr/products/platform/atlas-online-archive",
+        "https://www.mongodb.com/ko-kr/products/platform/atlas-search",
+        "https://www.mongodb.com/ko-kr/products/platform/atlas-sql-interface",
+        "https://www.mongodb.com/ko-kr/products/self-managed/enterprise-advanced",
+        "https://www.mongodb.com/ko-kr/products/tools/shell/features",
+        "https://www.mongodb.com/ko-kr/products/tools/vs-code",
+        "https://www.mongodb.com/ko-kr/resources/basics/databases/cloud-databases/free-cloud-database",
+        "https://www.mongodb.com/ko-kr/resources/basics/databases/nosql-explained",
+        "https://www.mongodb.com/ko-kr/solutions/industries",
+        "https://www.mongodb.com/ko-kr/solutions/startups",
+        "https://www.mongodb.com/ko-kr/solutions/use-cases",
+        "https://www.mongodb.com/legal/archive/commercial-license",
+        "https://www.mongodb.com/legal/licensing/server-side-public-license/faq",
+        "https://www.mongodb.com/legal/sla/atlas/changes",
+        "https://www.mongodb.com/legal/sla/atlas/data-federation/changes",
+        "https://www.mongodb.com/legal/sla/cloud",
+        "https://www.mongodb.com/legal/support-policy",
+        "https://www.mongodb.com/legal/vendors/create-invoice",
+        "https://www.mongodb.com/legal/vendors/faq",
+        "https://www.mongodb.com/legal/vendors/get-started",
+        "https://www.mongodb.com/products/capabilities/auto-scaling",
+        "https://www.mongodb.com/products/capabilities/observability",
+        "https://www.mongodb.com/products/capabilities/time-series",
+        "https://www.mongodb.com/products/integrations/kafka-connector",
+        "https://www.mongodb.com/products/integrations/spark-connector",
+        "https://www.mongodb.com/products/platform/ai-search-and-retrieval",
+        "https://www.mongodb.com/products/platform/ai-search-and-retrieval/getting-started",
+        "https://www.mongodb.com/products/platform/ai-search-and-retrieval/models",
+        "https://www.mongodb.com/products/platform/atlas-charts",
+        "https://www.mongodb.com/products/platform/atlas-cloud-providers/aws",
+        "https://www.mongodb.com/products/platform/atlas-cloud-providers/azure",
+        "https://www.mongodb.com/products/platform/atlas-data-federation",
+        "https://www.mongodb.com/products/platform/atlas-database",
+        "https://www.mongodb.com/products/platform/atlas-for-government",
+        "https://www.mongodb.com/products/platform/atlas-online-archive",
+        "https://www.mongodb.com/products/platform/atlas-search",
+        "https://www.mongodb.com/products/platform/atlas-sql-interface",
+        "https://www.mongodb.com/products/self-managed",
+        "https://www.mongodb.com/products/self-managed/community-edition",
+        "https://www.mongodb.com/products/self-managed/enterprise-advanced",
+        "https://www.mongodb.com/products/self-managed/enterprise-advanced/ops-manager",
+        "https://www.mongodb.com/products/tools/mcp-server",
+        "https://www.mongodb.com/products/tools/relational-migrator",
+        "https://www.mongodb.com/products/tools/shell/features",
+        "https://www.mongodb.com/pt-br/products/integrations/spark-connector",
+        "https://www.mongodb.com/pt-br/products/platform/atlas-data-federation",
+        "https://www.mongodb.com/pt-br/products/platform/atlas-database",
+        "https://www.mongodb.com/pt-br/products/platform/atlas-online-archive",
+        "https://www.mongodb.com/pt-br/products/platform/atlas-search",
+        "https://www.mongodb.com/pt-br/products/platform/atlas-sql-interface",
+        "https://www.mongodb.com/pt-br/products/self-managed/enterprise-advanced",
+        "https://www.mongodb.com/pt-br/products/tools/shell",
+        "https://www.mongodb.com/pt-br/products/tools/shell/features",
+        "https://www.mongodb.com/pt-br/products/tools/vs-code",
+        "https://www.mongodb.com/pt-br/resources/basics/databases/cloud-databases/free-cloud-database",
+        "https://www.mongodb.com/pt-br/resources/basics/databases/nosql-explained",
+        "https://www.mongodb.com/pt-br/solutions/industries",
+        "https://www.mongodb.com/pt-br/solutions/startups",
+        "https://www.mongodb.com/resources/basics/cloud-explained/private-cloud-vs-public-cloud",
+        "https://www.mongodb.com/resources/basics/databases/cloud-databases/cloud-computing",
+        "https://www.mongodb.com/resources/basics/databases/cloud-databases/free-cloud-database",
+        "https://www.mongodb.com/resources/basics/databases/cloud-databases/private-public-hybrid-cloud",
+        "https://www.mongodb.com/resources/basics/databases/nosql-explained/nosql-vs-sql",
+        "https://www.mongodb.com/resources/basics/databases/nosql-explained/visualizing-nosql",
+        "https://www.mongodb.com/resources/basics/role-based-access-control",
+        "https://www.mongodb.com/resources/basics/unstructured-data/structured-vs-unstructured",
+        "https://www.mongodb.com/resources/community/projects",
+        "https://www.mongodb.com/resources/languages",
+        "https://www.mongodb.com/resources/products/capabilities/hybrid-search",
+        "https://www.mongodb.com/resources/products/compatibilities/docker",
+        "https://www.mongodb.com/resources/products/compatibilities/mongodb-and-django",
+        "https://www.mongodb.com/resources/products/fundamentals/mongodb-architecture",
+        "https://www.mongodb.com/resources/solutions/use-cases/peak-traffic-readiness-checklist",
+        "https://www.mongodb.com/services/customer-success-program/launch-readiness-checklist",
+        "https://www.mongodb.com/services/support/enterprise-advanced-support-plans",
+        "https://www.mongodb.com/solutions/industries",
+        "https://www.mongodb.com/solutions/industries/retail",
+        "https://www.mongodb.com/solutions/startups",
+        "https://www.mongodb.com/solutions/use-cases",
+        "https://www.mongodb.com/solutions/use-cases/legacy-modernization"
+      ],
+      "description": "Product & platform feature pages with hero, capability sections and CTAs"
+    },
+    {
+      "name": "blog-post-variant",
+      "representativePages": [
+        "https://www.mongodb.com/company/blog/4-key-considerations-unlocking-power-gen-ai"
+      ],
+      "urls": [
+        "https://www.mongodb.com/company/blog/4-key-considerations-unlocking-power-gen-ai",
+        "https://www.mongodb.com/company/blog/culture/recruiting-tips/how-land-your-next-customer-success-role-mongodb",
+        "https://www.mongodb.com/company/blog/quick-start-golang--mongodb--how-to-create-documents"
+      ],
+      "description": "Company blog post variant layout"
+    },
+    {
+      "name": "blog-post",
+      "representativePages": [
+        "https://www.mongodb.com/company/blog/accelerating-vector-search-with-bulk-scoring",
+        "https://www.mongodb.com/company/blog/product-release-announcements/supercharge-self-managed-apps-search-vector-search-capabilities"
+      ],
+      "urls": [
+        "https://www.mongodb.com/company/blog/accelerating-vector-search-with-bulk-scoring",
+        "https://www.mongodb.com/company/blog/aerofiler-brings-breakthrough-automation-legal-profession",
+        "https://www.mongodb.com/company/blog/culture/diversity-and-inclusion/afrotech-executive-assistant-cybersecurity-specialist-employee-shares-career-growth-story-guide-online-personal-safety",
+        "https://www.mongodb.com/company/blog/culture/diversity-and-inclusion/afrotech-virtual-summit-recap-mongodb-employees-share-advice-rising-tech-talent",
+        "https://www.mongodb.com/company/blog/culture/diversity-and-inclusion/celebrating-pride-mongodb",
+        "https://www.mongodb.com/company/blog/culture/diversity-and-inclusion/employee-spotlight-mongodb-product-manager-talks-about-role-companys-push-inclusivity",
+        "https://www.mongodb.com/company/blog/culture/diversity-and-inclusion/employees-share-coming-out-stories",
+        "https://www.mongodb.com/company/blog/culture/diversity-and-inclusion/future-is-inclusive-meet-queer-collective",
+        "https://www.mongodb.com/company/blog/culture/diversity-and-inclusion/honoring-black-history-month",
+        "https://www.mongodb.com/company/blog/culture/diversity-and-inclusion/honoring-black-history-month-these-mongodb-employees-defied-odds",
+        "https://www.mongodb.com/company/blog/culture/diversity-and-inclusion/how-these-mongodb-employees-celebrated-juneteenth",
+        "https://www.mongodb.com/company/blog/culture/diversity-and-inclusion/mdbwomen-look-into-mongodbs-affinity-group-for-womenidentifying-employees",
+        "https://www.mongodb.com/company/blog/culture/diversity-and-inclusion/meet-some-mongodbs-influential-women-leaders-2021",
+        "https://www.mongodb.com/company/blog/culture/diversity-and-inclusion/the-power-embracing-differences-my-journey-mongodb",
+        "https://www.mongodb.com/company/blog/culture/from-software-developer-product-manager-meet-maria-van-keulen",
+        "https://www.mongodb.com/company/blog/culture/mongodb-launches-mongodb-ventures-investment-fund",
+        "https://www.mongodb.com/company/blog/culture/recruiting-tips/five-tips-creating-your-product-design-portfolio",
+        "https://www.mongodb.com/company/blog/culture/recruiting-tips/five-tips-writing-your-marketing-resume",
+        "https://www.mongodb.com/company/blog/culture/recruiting-tips/four-tips-writing-applying-your-engineering-resume",
+        "https://www.mongodb.com/company/blog/culture/recruiting-tips/how-prepare-your-engineering-interview-mongodb",
+        "https://www.mongodb.com/company/blog/culture/recruiting-tips/how-prepare-your-enterprise-account-executive-interview-mongodb",
+        "https://www.mongodb.com/company/blog/culture/recruiting-tips/how-to-rock-your-customer-success-interview-at-mongodb",
+        "https://www.mongodb.com/company/blog/culture/recruiting-tips/preparing-your-consulting-engineer-interview-mongodb",
+        "https://www.mongodb.com/company/blog/culture/recruiting-tips/preparing-your-customer-success-interview-mongodb",
+        "https://www.mongodb.com/company/blog/culture/sustainability-action-meet-mongodbs-green-team",
+        "https://www.mongodb.com/company/blog/culture/women-leaders-mongodb-kanika-khurana-leading-transparency",
+        "https://www.mongodb.com/company/blog/culture/women-leaders-mongodb-raising-bar-may-petry",
+        "https://www.mongodb.com/company/blog/engineering/carrying-complexity-delivering-agility",
+        "https://www.mongodb.com/company/blog/engineering/conformance-checking-at-mongodb-testing-our-code-matches-our-tla-specs",
+        "https://www.mongodb.com/company/blog/engineering/lower-cost-vector-retrieval-with-voyage-ais-model-options",
+        "https://www.mongodb.com/company/blog/engineering/mongodb-8-0-raising-the-bar",
+        "https://www.mongodb.com/company/blog/engineering/repeatable-performance-tests-ec2-instances-neither-good-nor-bad",
+        "https://www.mongodb.com/company/blog/events/2022-innovation-award-winners",
+        "https://www.mongodb.com/company/blog/events/aws-reinvent/mongodb-aws-how-decade-old-collaboration-got-even-better-2022",
+        "https://www.mongodb.com/company/blog/events/aws-reinvent/mongodb-aws-reinvent-workshops-talks-parties-more",
+        "https://www.mongodb.com/company/blog/events/aws-reinvent/mongodb-highlights-aws-reinvent-2022",
+        "https://www.mongodb.com/company/blog/events/aws-reinvent/our-predictions-for-aws-reinvent-2017",
+        "https://www.mongodb.com/company/blog/events/aws-reinvent/ten-years-mongodb-customers-aws-reinvent",
+        "https://www.mongodb.com/company/blog/events/local-nyc-2025-defining-ideal-database-for-ai-era",
+        "https://www.mongodb.com/company/blog/events/mongodb-partner-year-award-winners-2021",
+        "https://www.mongodb.com/company/blog/events/mongodb-world-recap-performance-gotchas-replicas-spanning-multiple-data-centers",
+        "https://www.mongodb.com/company/blog/events/working-together-mongodbs-partner-year-awards",
+        "https://www.mongodb.com/company/blog/innovation/building-gen-ai-mongodb-ai-partners-january-2025",
+        "https://www.mongodb.com/company/blog/innovation/how-slice-enables-credit-approval-less-than-minute-millions-indians",
+        "https://www.mongodb.com/company/blog/innovation/mach-aligned-retail-headless",
+        "https://www.mongodb.com/company/blog/innovation/tnl-mediagene-builds-data-driven-content-platform-with-atlas",
+        "https://www.mongodb.com/company/blog/innovation/transforming-industries-mongodb-ai-financial-services",
+        "https://www.mongodb.com/company/blog/mongodb-bosch-discussion-aiot",
+        "https://www.mongodb.com/company/blog/mongodb/performance-best-practices-sharding",
+        "https://www.mongodb.com/company/blog/news/celebrating-excellence-mongodb-global-partner-awards-2025",
+        "https://www.mongodb.com/company/blog/news/mongodb-assistance-ukraine-shut-down-work-russia",
+        "https://www.mongodb.com/company/blog/news/new-atlas-administrator-learning-path-and-certification",
+        "https://www.mongodb.com/company/blog/news/partners-codecademy-new-learn-mongodb-course",
+        "https://www.mongodb.com/company/blog/news/rockets-rock-roll-relational-databases-look-back-year-rdbms",
+        "https://www.mongodb.com/company/blog/product-release-announcements/atlas-stream-processing-adds-aws-regions-vpc-peering-more",
+        "https://www.mongodb.com/company/blog/product-release-announcements/dynamic-workloads-predictable-costs-mongodb-atlas-flex-tier",
+        "https://www.mongodb.com/company/blog/product-release-announcements/intelligent-proactive-resizing-with-mongodb-atlas-predictive-auto-scaling",
+        "https://www.mongodb.com/company/blog/product-release-announcements/secure-scale-your-data-with-mongodb-atlas-on-azure-and-gcp",
+        "https://www.mongodb.com/company/blog/product-release-announcements/supercharge-self-managed-apps-search-vector-search-capabilities",
+        "https://www.mongodb.com/company/blog/technical/accelerate-app-delivery-cognizants-next-gen-continuous-integrator",
+        "https://www.mongodb.com/company/blog/technical/application-driven-analytics-why-are-operational-analytical-workloads-converging",
+        "https://www.mongodb.com/company/blog/technical/atlas-search-playground-easy-experimentation",
+        "https://www.mongodb.com/company/blog/technical/evolving-apis-confidence-at-mongodb-atlas",
+        "https://www.mongodb.com/company/blog/technical/real-time-inventory-tracking-computer-vision-atlas",
+        "https://www.mongodb.com/company/bloghow-to-select-for-update-inside-mongodb-transactions"
+      ],
+      "description": "Company blog post with title, author meta, body content and related links"
+    },
+    {
+      "name": "blog-post-feature",
+      "representativePages": [
+        "https://www.mongodb.com/company/blog/mongodb/6-rules-of-thumb-for-mongodb-schema-design"
+      ],
+      "urls": [
+        "https://www.mongodb.com/company/blog/mongodb/6-rules-of-thumb-for-mongodb-schema-design"
+      ],
+      "description": "Featured/long-form company blog post layout"
+    },
+    {
+      "name": "content-hub",
+      "representativePages": [
+        "https://www.mongodb.com/company/careers",
+        "https://www.mongodb.com/de-de/resources/languages/c-sharp",
+        "https://www.mongodb.com/company/careers/benefits/transparency-in-coverage"
+      ],
+      "urls": [
+        "https://www.mongodb.com/company/careers",
+        "https://www.mongodb.com/company/careers/benefits/transparency-in-coverage",
+        "https://www.mongodb.com/company/careers/teams",
+        "https://www.mongodb.com/company/partners/alibaba",
+        "https://www.mongodb.com/company/research/cryptography-research-group",
+        "https://www.mongodb.com/de-de/products/platform/cloud",
+        "https://www.mongodb.com/de-de/resources/basics/artificial-intelligence/retrieval-augmented-generation",
+        "https://www.mongodb.com/de-de/resources/languages/c-sharp",
+        "https://www.mongodb.com/es/products/platform/cloud",
+        "https://www.mongodb.com/es/resources/basics/artificial-intelligence/retrieval-augmented-generation",
+        "https://www.mongodb.com/es/resources/languages/c-sharp",
+        "https://www.mongodb.com/es/solutions/use-cases/analytics/rocket-launch-in-app-analytics",
+        "https://www.mongodb.com/es/solutions/use-cases/analytics/rocket-launch-in-app-analytics-demo",
+        "https://www.mongodb.com/events/mongodb-local/london/faq",
+        "https://www.mongodb.com/events/mongodb-local/london/justify-your-trip",
+        "https://www.mongodb.com/events/mongodb-local/nyc/faq",
+        "https://www.mongodb.com/events/mongodb-local/nyc/justify-your-trip",
+        "https://www.mongodb.com/events/mongodb-local/nyc/travel",
+        "https://www.mongodb.com/events/mongodb-local/san-francisco/faq",
+        "https://www.mongodb.com/fr-fr/products/platform/cloud",
+        "https://www.mongodb.com/fr-fr/resources/basics/artificial-intelligence/retrieval-augmented-generation",
+        "https://www.mongodb.com/fr-fr/resources/languages/c-sharp",
+        "https://www.mongodb.com/fr-fr/solutions/use-cases/analytics/rocket-launch-in-app-analytics-demo",
+        "https://www.mongodb.com/it-it/products/platform/cloud",
+        "https://www.mongodb.com/it-it/resources/basics/artificial-intelligence/retrieval-augmented-generation",
+        "https://www.mongodb.com/it-it/resources/languages/c-sharp",
+        "https://www.mongodb.com/ko-kr/company/careers",
+        "https://www.mongodb.com/ko-kr/products/platform/cloud",
+        "https://www.mongodb.com/ko-kr/resources/basics/artificial-intelligence/retrieval-augmented-generation",
+        "https://www.mongodb.com/ko-kr/resources/languages/c-sharp",
+        "https://www.mongodb.com/products/integrations/hashicorp-terraform",
+        "https://www.mongodb.com/products/platform/cloud",
+        "https://www.mongodb.com/pt-br/products/platform/cloud",
+        "https://www.mongodb.com/pt-br/resources/basics/artificial-intelligence/retrieval-augmented-generation",
+        "https://www.mongodb.com/pt-br/resources/languages/c-sharp",
+        "https://www.mongodb.com/pt-br/solutions/use-cases/analytics/rocket-launch-in-app-analytics",
+        "https://www.mongodb.com/resources/basics/artificial-intelligence/agentic-systems",
+        "https://www.mongodb.com/resources/basics/artificial-intelligence/ai-stack",
+        "https://www.mongodb.com/resources/basics/databases/data-management-platforms",
+        "https://www.mongodb.com/resources/basics/databases/data-mesh",
+        "https://www.mongodb.com/resources/languages/c-sharp",
+        "https://www.mongodb.com/resources/products/platform/event-stream-processing"
+      ],
+      "description": "Section hub / listing pages aggregating resources, products and languages"
+    },
+    {
+      "name": "careers-benefits",
+      "representativePages": [
+        "https://www.mongodb.com/company/careers/benefits/us"
+      ],
+      "urls": [
+        "https://www.mongodb.com/company/careers/benefits/us",
+        "https://www.mongodb.com/company/sustainability",
+        "https://www.mongodb.com/de-de/solutions/use-cases/analytics/rocket-launch-in-app-analytics",
+        "https://www.mongodb.com/es/company/careers",
+        "https://www.mongodb.com/it-it/company/careers",
+        "https://www.mongodb.com/it-it/solutions/use-cases/analytics/rocket-launch-in-app-analytics"
+      ],
+      "description": "Careers benefits pages with benefit category sections"
+    },
+    {
+      "name": "case-study-detail",
+      "representativePages": [
+        "https://www.mongodb.com/company/careers/benefits/us/emotional-wellbeing",
+        "https://www.mongodb.com/solutions/industries/financial-services/mongodb-aws-finserv",
+        "https://www.mongodb.com/events/mongodb-local/singapore"
+      ],
+      "urls": [
+        "https://www.mongodb.com/company/careers/benefits/us/emotional-wellbeing",
+        "https://www.mongodb.com/company/careers/benefits/us/family-and-community-wellbeing",
+        "https://www.mongodb.com/company/careers/benefits/us/financial-wellbeing",
+        "https://www.mongodb.com/company/careers/benefits/us/financial-wellbeing/disability-and-life-insurance",
+        "https://www.mongodb.com/company/careers/benefits/us/financial-wellbeing/pre-tax-benefits",
+        "https://www.mongodb.com/company/careers/benefits/us/physical-wellbeing",
+        "https://www.mongodb.com/company/careers/benefits/us/physical-wellbeing/fitness-perks",
+        "https://www.mongodb.com/company/careers/benefits/us/physical-wellbeing/medical-perks",
+        "https://www.mongodb.com/de-de/products/platform/atlas-sql-interface",
+        "https://www.mongodb.com/de-de/products/platform/atlas-stream-processing",
+        "https://www.mongodb.com/de-de/products/self-managed/enterprise-advanced/ops-manager",
+        "https://www.mongodb.com/de-de/products/tools/shell",
+        "https://www.mongodb.com/de-de/solutions/customer-case-studies/bendigo-and-adelaide-bank",
+        "https://www.mongodb.com/de-de/solutions/customer-case-studies/dt",
+        "https://www.mongodb.com/de-de/solutions/customer-case-studies/evana",
+        "https://www.mongodb.com/de-de/solutions/customer-case-studies/knot-worldwide",
+        "https://www.mongodb.com/de-de/solutions/customer-case-studies/lombard-odier",
+        "https://www.mongodb.com/de-de/solutions/customer-case-studies/michelin",
+        "https://www.mongodb.com/de-de/solutions/customer-case-studies/novo-nordisk",
+        "https://www.mongodb.com/de-de/solutions/use-cases",
+        "https://www.mongodb.com/de-de/solutions/use-cases/modernize",
+        "https://www.mongodb.com/es/products/platform/atlas-stream-processing",
+        "https://www.mongodb.com/es/products/self-managed/enterprise-advanced/ops-manager",
+        "https://www.mongodb.com/es/solutions/customer-case-studies/bosch",
+        "https://www.mongodb.com/es/solutions/customer-case-studies/knot-worldwide",
+        "https://www.mongodb.com/es/solutions/customer-case-studies/lombard-odier",
+        "https://www.mongodb.com/es/solutions/customer-case-studies/loreal",
+        "https://www.mongodb.com/es/solutions/customer-case-studies/michelin",
+        "https://www.mongodb.com/es/solutions/customer-case-studies/novo-nordisk",
+        "https://www.mongodb.com/es/solutions/customer-case-studies/sky-airlines",
+        "https://www.mongodb.com/es/solutions/use-cases",
+        "https://www.mongodb.com/es/solutions/use-cases/modernize",
+        "https://www.mongodb.com/events/mongodb-ai-engineer-worlds-fair",
+        "https://www.mongodb.com/events/mongodb-aws-summits",
+        "https://www.mongodb.com/events/mongodb-aws-summits/amsterdam",
+        "https://www.mongodb.com/events/mongodb-aws-summits/asean",
+        "https://www.mongodb.com/events/mongodb-aws-summits/bangkok",
+        "https://www.mongodb.com/events/mongodb-aws-summits/bengaluru",
+        "https://www.mongodb.com/events/mongodb-aws-summits/berlin",
+        "https://www.mongodb.com/events/mongodb-aws-summits/dubai",
+        "https://www.mongodb.com/events/mongodb-aws-summits/hong-kong",
+        "https://www.mongodb.com/events/mongodb-aws-summits/jakarta",
+        "https://www.mongodb.com/events/mongodb-aws-summits/london",
+        "https://www.mongodb.com/events/mongodb-aws-summits/los-angeles",
+        "https://www.mongodb.com/events/mongodb-aws-summits/mumbai",
+        "https://www.mongodb.com/events/mongodb-aws-summits/nyc",
+        "https://www.mongodb.com/events/mongodb-aws-summits/singapore",
+        "https://www.mongodb.com/events/mongodb-aws-summits/stockholm",
+        "https://www.mongodb.com/events/mongodb-aws-summits/sydney",
+        "https://www.mongodb.com/events/mongodb-aws-summits/taiwan",
+        "https://www.mongodb.com/events/mongodb-aws-summits/tel-aviv",
+        "https://www.mongodb.com/events/mongodb-aws-summits/toronto",
+        "https://www.mongodb.com/events/mongodb-aws-summits/washington-dc",
+        "https://www.mongodb.com/events/mongodb-aws-summits/zurich",
+        "https://www.mongodb.com/events/mongodb-local/government-solutions",
+        "https://www.mongodb.com/events/mongodb-local/singapore",
+        "https://www.mongodb.com/events/mongodb-local/sydney",
+        "https://www.mongodb.com/events/mongodb-msft-build",
+        "https://www.mongodb.com/events/mongodb-msft-ignite",
+        "https://www.mongodb.com/fr-fr/products/platform/atlas-stream-processing",
+        "https://www.mongodb.com/fr-fr/products/self-managed/enterprise-advanced/ops-manager",
+        "https://www.mongodb.com/fr-fr/solutions/customer-case-studies/knot-worldwide",
+        "https://www.mongodb.com/fr-fr/solutions/customer-case-studies/lombard-odier",
+        "https://www.mongodb.com/fr-fr/solutions/customer-case-studies/loreal",
+        "https://www.mongodb.com/fr-fr/solutions/customer-case-studies/michelin",
+        "https://www.mongodb.com/fr-fr/solutions/customer-case-studies/novo-nordisk",
+        "https://www.mongodb.com/fr-fr/solutions/use-cases",
+        "https://www.mongodb.com/fr-fr/solutions/use-cases/modernize",
+        "https://www.mongodb.com/it-it/products/platform/atlas-stream-processing",
+        "https://www.mongodb.com/it-it/products/self-managed/enterprise-advanced/ops-manager",
+        "https://www.mongodb.com/it-it/products/tools/shell",
+        "https://www.mongodb.com/it-it/solutions/customer-case-studies/knot-worldwide",
+        "https://www.mongodb.com/it-it/solutions/customer-case-studies/lombard-odier",
+        "https://www.mongodb.com/it-it/solutions/customer-case-studies/loreal",
+        "https://www.mongodb.com/it-it/solutions/customer-case-studies/michelin",
+        "https://www.mongodb.com/it-it/solutions/customer-case-studies/novo-nordisk",
+        "https://www.mongodb.com/it-it/solutions/use-cases",
+        "https://www.mongodb.com/it-it/solutions/use-cases/modernize",
+        "https://www.mongodb.com/ko-kr/products/platform/atlas-stream-processing",
+        "https://www.mongodb.com/ko-kr/products/self-managed/enterprise-advanced/ops-manager",
+        "https://www.mongodb.com/ko-kr/products/tools/shell",
+        "https://www.mongodb.com/ko-kr/solutions/customer-case-studies/bendigo-and-adelaide-bank",
+        "https://www.mongodb.com/ko-kr/solutions/customer-case-studies/lombard-odier",
+        "https://www.mongodb.com/ko-kr/solutions/customer-case-studies/loreal",
+        "https://www.mongodb.com/ko-kr/solutions/customer-case-studies/meritz",
+        "https://www.mongodb.com/ko-kr/solutions/customer-case-studies/novo-nordisk",
+        "https://www.mongodb.com/ko-kr/solutions/customer-case-studies/vodafone",
+        "https://www.mongodb.com/products/capabilities/security",
+        "https://www.mongodb.com/products/platform/atlas-stream-processing",
+        "https://www.mongodb.com/products/tools/shell",
+        "https://www.mongodb.com/products/tools/vs-code",
+        "https://www.mongodb.com/pt-br/products/platform/atlas-stream-processing",
+        "https://www.mongodb.com/pt-br/products/self-managed/enterprise-advanced/ops-manager",
+        "https://www.mongodb.com/pt-br/solutions/customer-case-studies/bosch",
+        "https://www.mongodb.com/pt-br/solutions/customer-case-studies/knot-worldwide",
+        "https://www.mongodb.com/pt-br/solutions/customer-case-studies/lombard-odier",
+        "https://www.mongodb.com/pt-br/solutions/customer-case-studies/loreal",
+        "https://www.mongodb.com/pt-br/solutions/customer-case-studies/michelin",
+        "https://www.mongodb.com/pt-br/solutions/customer-case-studies/novo-nordisk",
+        "https://www.mongodb.com/pt-br/solutions/use-cases",
+        "https://www.mongodb.com/resources/services/customer-success-quick-guide",
+        "https://www.mongodb.com/services/training",
+        "https://www.mongodb.com/solutions/customer-case-studies/amar-bank",
+        "https://www.mongodb.com/solutions/customer-case-studies/sidis",
+        "https://www.mongodb.com/solutions/customer-case-studies/telus-health",
+        "https://www.mongodb.com/solutions/customer-case-studies/unifying-a-retail-ai-stack-with-mongodb",
+        "https://www.mongodb.com/solutions/industries/financial-services/mongodb-aws-finserv",
+        "https://www.mongodb.com/solutions/industries/manufacturing/mongodb-aws-automotive",
+        "https://www.mongodb.com/solutions/industries/public-sector/defense",
+        "https://www.mongodb.com/solutions/industries/public-sector/education",
+        "https://www.mongodb.com/solutions/industries/public-sector/financial-services",
+        "https://www.mongodb.com/solutions/industries/public-sector/government",
+        "https://www.mongodb.com/solutions/industries/public-sector/healthcare",
+        "https://www.mongodb.com/solutions/industries/public-sector/mongodb-aws",
+        "https://www.mongodb.com/solutions/solutions-library/smart-agents-with-fireworks-ai-langchain"
+      ],
+      "description": "Customer case study / event summit detail pages with hero, narrative body and metrics"
+    },
+    {
+      "name": "partner-program-page",
+      "representativePages": [
+        "https://www.mongodb.com/company/careers/benefits/us/growth-and-development",
+        "https://www.mongodb.com/company/partners/si-certification-program",
+        "https://www.mongodb.com/company/partners/si-certification-program/mongodb-application-delivery-certification"
+      ],
+      "urls": [
+        "https://www.mongodb.com/company/careers/benefits/us/growth-and-development",
+        "https://www.mongodb.com/company/partners/si-certification-program",
+        "https://www.mongodb.com/company/partners/si-certification-program/mongodb-application-delivery-certification",
+        "https://www.mongodb.com/company/partners/si-certification-program/mongodb-sales-accreditation",
+        "https://www.mongodb.com/company/partners/si-certification-program/public-sector",
+        "https://www.mongodb.com/company/partners/si-certification-program/si-architect-certification",
+        "https://www.mongodb.com/company/partners/si-certification-program/si-associate-certification"
+      ],
+      "description": "Partner program / SI certification pages with program details"
+    },
+    {
+      "name": "careers-team",
+      "representativePages": [
+        "https://www.mongodb.com/company/careers/inclusion"
+      ],
+      "urls": [
+        "https://www.mongodb.com/company/careers/inclusion",
+        "https://www.mongodb.com/company/careers/teams/customer",
+        "https://www.mongodb.com/company/careers/teams/engineering",
+        "https://www.mongodb.com/company/careers/teams/hr-recruiting",
+        "https://www.mongodb.com/company/careers/teams/marketing",
+        "https://www.mongodb.com/company/careers/teams/sales"
+      ],
+      "description": "Careers team / inclusion pages with team description content"
+    },
+    {
+      "name": "careers-students",
+      "representativePages": [
+        "https://www.mongodb.com/company/careers/students-and-graduates"
+      ],
+      "urls": [
+        "https://www.mongodb.com/company/careers/students-and-graduates",
+        "https://www.mongodb.com/company/careers/teams/finance-legal-ops",
+        "https://www.mongodb.com/company/careers/teams/product-management-and-design"
+      ],
+      "description": "Careers students-and-graduates / specialized team pages"
+    },
+    {
+      "name": "contact-form-page",
+      "representativePages": [
+        "https://www.mongodb.com/company/contact/feedback/bug-submission-form"
+      ],
+      "urls": [
+        "https://www.mongodb.com/company/contact/feedback/bug-submission-form"
+      ],
+      "description": "Contact / bug-submission form page"
+    },
+    {
+      "name": "info-content-page",
+      "representativePages": [
+        "https://www.mongodb.com/company/contact/mongodb-vulnerability-disclosure-policy",
+        "https://www.mongodb.com/products/integrations/hashicorp-vault",
+        "https://www.mongodb.com/company/partners/register"
+      ],
+      "urls": [
+        "https://www.mongodb.com/company/contact/mongodb-vulnerability-disclosure-policy",
+        "https://www.mongodb.com/company/contact/unsubscribe",
+        "https://www.mongodb.com/company/partners/partner-development-support",
+        "https://www.mongodb.com/company/partners/register",
+        "https://www.mongodb.com/company/what-is-mongodb",
+        "https://www.mongodb.com/products/integrations/adobe-experience-manager",
+        "https://www.mongodb.com/products/integrations/hashicorp-vault",
+        "https://www.mongodb.com/products/platform/atlas-charts/dashboard",
+        "https://www.mongodb.com/resources/compare/documentdb-vs-mongodb/couchdb-vs-mongodb",
+        "https://www.mongodb.com/resources/compare/mariadb-vs-mongodb",
+        "https://www.mongodb.com/resources/products/compatibilities/hadoop-and-mongodb",
+        "https://www.mongodb.com/solutions/use-cases/data-as-a-service"
+      ],
+      "description": "General informational pages (contact, partners, integrations) with simple body"
+    },
+    {
+      "name": "contact-social-hub",
+      "representativePages": [
+        "https://www.mongodb.com/company/contact/social-media-hub"
+      ],
+      "urls": [
+        "https://www.mongodb.com/company/contact/social-media-hub"
+      ],
+      "description": "Contact social media hub page"
+    },
+    {
+      "name": "campaign-landing",
+      "representativePages": [
+        "https://www.mongodb.com/company/love-your-developers"
+      ],
+      "urls": [
+        "https://www.mongodb.com/company/love-your-developers"
+      ],
+      "description": "Marketing campaign landing page (love-your-developers)"
+    },
+    {
+      "name": "info-page-variant",
+      "representativePages": [
+        "https://www.mongodb.com/company/newsroom/brand-resources"
+      ],
+      "urls": [
+        "https://www.mongodb.com/company/newsroom/brand-resources",
+        "https://www.mongodb.com/services/consulting/flex-consulting/cancellation-policy"
+      ],
+      "description": "Newsroom / consulting informational page variant"
+    },
+    {
+      "name": "partner-detail",
+      "representativePages": [
+        "https://www.mongodb.com/company/partners/accenture"
+      ],
+      "urls": [
+        "https://www.mongodb.com/company/partners/accenture"
+      ],
+      "description": "Individual partner detail page"
+    },
+    {
+      "name": "partner-program-detail",
+      "representativePages": [
+        "https://www.mongodb.com/company/partners/certified-by-mongodb-dbaas-program"
+      ],
+      "urls": [
+        "https://www.mongodb.com/company/partners/certified-by-mongodb-dbaas-program"
+      ],
+      "description": "Partner program detail page (DBaaS certification)"
+    },
+    {
+      "name": "resource-guide",
+      "representativePages": [
+        "https://www.mongodb.com/company/partners/databricks",
+        "https://www.mongodb.com/de-de/products/capabilities/security/encryption",
+        "https://www.mongodb.com/de-de/solutions/use-cases/analytics/embedded-analytics"
+      ],
+      "urls": [
+        "https://www.mongodb.com/company/partners/databricks",
+        "https://www.mongodb.com/company/partners/vercel",
+        "https://www.mongodb.com/de-de/company/careers",
+        "https://www.mongodb.com/de-de/products/capabilities/security/encryption",
+        "https://www.mongodb.com/de-de/resources/basics/databases/vector-databases",
+        "https://www.mongodb.com/de-de/resources/languages/cpp",
+        "https://www.mongodb.com/de-de/resources/languages/mern-stack",
+        "https://www.mongodb.com/de-de/resources/products/platform/mongodb-atlas-tutorial",
+        "https://www.mongodb.com/de-de/solutions/use-cases/analytics/embedded-analytics",
+        "https://www.mongodb.com/de-de/solutions/use-cases/analytics/rocket-launch-in-app-analytics-demo",
+        "https://www.mongodb.com/es/products/capabilities/security/encryption",
+        "https://www.mongodb.com/es/resources/basics/databases/vector-databases",
+        "https://www.mongodb.com/es/resources/languages/cpp",
+        "https://www.mongodb.com/es/resources/languages/mern-stack",
+        "https://www.mongodb.com/es/resources/products/platform/mongodb-atlas-tutorial",
+        "https://www.mongodb.com/es/services/consulting/flex-consulting",
+        "https://www.mongodb.com/es/solutions/use-cases/analytics/embedded-analytics",
+        "https://www.mongodb.com/events/mongodb-local/pre-event-learning-path",
+        "https://www.mongodb.com/fr-fr/company/careers",
+        "https://www.mongodb.com/fr-fr/products/capabilities/security/encryption",
+        "https://www.mongodb.com/fr-fr/resources/basics/databases/vector-databases",
+        "https://www.mongodb.com/fr-fr/resources/languages/cpp",
+        "https://www.mongodb.com/fr-fr/resources/languages/mern-stack",
+        "https://www.mongodb.com/fr-fr/resources/products/platform/mongodb-atlas-tutorial",
+        "https://www.mongodb.com/fr-fr/solutions/use-cases/analytics/embedded-analytics",
+        "https://www.mongodb.com/fr-fr/solutions/use-cases/analytics/rocket-launch-in-app-analytics",
+        "https://www.mongodb.com/it-it/products/capabilities/security/encryption",
+        "https://www.mongodb.com/it-it/resources/basics/databases/vector-databases",
+        "https://www.mongodb.com/it-it/resources/languages/mern-stack",
+        "https://www.mongodb.com/it-it/resources/products/platform/mongodb-atlas-tutorial",
+        "https://www.mongodb.com/it-it/solutions/use-cases/analytics/embedded-analytics",
+        "https://www.mongodb.com/it-it/solutions/use-cases/analytics/rocket-launch-in-app-analytics-demo",
+        "https://www.mongodb.com/ja-jp/resources/languages/mern-stack",
+        "https://www.mongodb.com/ko-kr/products/capabilities/security/encryption",
+        "https://www.mongodb.com/ko-kr/resources/basics/databases/vector-databases",
+        "https://www.mongodb.com/ko-kr/resources/languages/mern-stack",
+        "https://www.mongodb.com/ko-kr/resources/products/platform/mongodb-atlas-tutorial",
+        "https://www.mongodb.com/ko-kr/solutions/use-cases/analytics/embedded-analytics",
+        "https://www.mongodb.com/ko-kr/solutions/use-cases/analytics/rocket-launch-in-app-analytics",
+        "https://www.mongodb.com/ko-kr/solutions/use-cases/analytics/rocket-launch-in-app-analytics-demo",
+        "https://www.mongodb.com/products/capabilities/security/encryption",
+        "https://www.mongodb.com/pt-br/company/careers",
+        "https://www.mongodb.com/pt-br/products/capabilities/security/encryption",
+        "https://www.mongodb.com/pt-br/resources/basics/databases/vector-databases",
+        "https://www.mongodb.com/pt-br/resources/languages/cpp",
+        "https://www.mongodb.com/pt-br/resources/languages/mern-stack",
+        "https://www.mongodb.com/pt-br/resources/products/platform/mongodb-atlas-tutorial",
+        "https://www.mongodb.com/pt-br/services/consulting/flex-consulting",
+        "https://www.mongodb.com/pt-br/solutions/use-cases/analytics/embedded-analytics",
+        "https://www.mongodb.com/pt-br/solutions/use-cases/analytics/rocket-launch-in-app-analytics-demo",
+        "https://www.mongodb.com/resources/basics/artificial-intelligence/recommendation-engines",
+        "https://www.mongodb.com/resources/basics/cloud-explained/data-centers",
+        "https://www.mongodb.com/resources/basics/vector-index",
+        "https://www.mongodb.com/resources/databases/database-solution",
+        "https://www.mongodb.com/resources/databases/knowledge-graph",
+        "https://www.mongodb.com/resources/languages/json-to-mongodb",
+        "https://www.mongodb.com/resources/languages/mern-stack",
+        "https://www.mongodb.com/resources/languages/python",
+        "https://www.mongodb.com/resources/products/compatibilities/kubernetes-deployment",
+        "https://www.mongodb.com/resources/products/compatibilities/spring-boot",
+        "https://www.mongodb.com/services/consulting/flex-consulting",
+        "https://www.mongodb.com/services/customer-success-program",
+        "https://www.mongodb.com/solutions/use-cases/analytics/embedded-analytics",
+        "https://www.mongodb.com/solutions/use-cases/analytics/rocket-launch-in-app-analytics",
+        "https://www.mongodb.com/solutions/use-cases/analytics/rocket-launch-in-app-analytics-demo"
+      ],
+      "description": "Use-case / language / basics guide pages with structured content sections"
+    },
+    {
+      "name": "language-tutorial",
+      "representativePages": [
+        "https://www.mongodb.com/company/partners/ionos",
+        "https://www.mongodb.com/de-de/resources/languages/mern-stack-tutorial"
+      ],
+      "urls": [
+        "https://www.mongodb.com/company/partners/ionos",
+        "https://www.mongodb.com/de-de/resources/languages/mern-stack-tutorial",
+        "https://www.mongodb.com/es/resources/languages/mern-stack-tutorial",
+        "https://www.mongodb.com/fr-fr/resources/languages/mern-stack-tutorial",
+        "https://www.mongodb.com/it-it/resources/languages/mern-stack-tutorial",
+        "https://www.mongodb.com/ko-kr/resources/languages/mern-stack-tutorial",
+        "https://www.mongodb.com/pt-br/resources/languages/mern-stack-tutorial",
+        "https://www.mongodb.com/services/training/public-training",
+        "https://www.mongodb.com/solutions/use-cases/analytics/real-time-analytics"
+      ],
+      "description": "Programming language tutorial resource pages (localized)"
+    },
+    {
+      "name": "partner-legal-terms",
+      "representativePages": [
+        "https://www.mongodb.com/company/partners/partner-development-support-terms",
+        "https://www.mongodb.com/products/lightning-consult/order-confirmation"
+      ],
+      "urls": [
+        "https://www.mongodb.com/company/partners/partner-development-support-terms",
+        "https://www.mongodb.com/company/partners/partner-program-agreement",
+        "https://www.mongodb.com/company/partners/support",
+        "https://www.mongodb.com/company/partners/technology-partner-addendum",
+        "https://www.mongodb.com/events/mongodb-at-himss",
+        "https://www.mongodb.com/events/mongodb-local/code-of-conduct",
+        "https://www.mongodb.com/products/lightning-consult/order-confirmation"
+      ],
+      "description": "Partner program legal terms and agreement pages"
+    },
+    {
+      "name": "partner-certification-detail",
+      "representativePages": [
+        "https://www.mongodb.com/company/partners/si-certification-program/public-sector/si-associate-certification"
+      ],
+      "urls": [
+        "https://www.mongodb.com/company/partners/si-certification-program/public-sector/si-associate-certification"
+      ],
+      "description": "Partner SI certification detail page"
+    },
+    {
+      "name": "resource-article",
+      "representativePages": [
+        "https://www.mongodb.com/company/sustainability/SB261",
+        "https://www.mongodb.com/resources/solutions/industries/whats-driving-next-generation-data-platform-adoption-in-financial-services-2022",
+        "https://www.mongodb.com/company/sustainability/emissions-verification-report/fy25",
+        "https://www.mongodb.com/resources/products/capabilities/webinar-mongodb-masterclass-advanced-sharding-and-cluster-troubleshooting"
+      ],
+      "urls": [
+        "https://www.mongodb.com/company/sustainability/SB261",
+        "https://www.mongodb.com/company/sustainability/emissions-verification-report/fy25",
+        "https://www.mongodb.com/de-de/resources/products/capabilities/ideal-data-foundation",
+        "https://www.mongodb.com/de-de/resources/solutions/industries/mongodb-for-auto-manufacturing",
+        "https://www.mongodb.com/de-de/resources/solutions/use-cases/application-modernization-platform-datasheet",
+        "https://www.mongodb.com/de-de/resources/solutions/use-cases/mongodb-evolves-its-portfolio-with-ai-at-the-top",
+        "https://www.mongodb.com/es/resources/products/capabilities/ideal-data-foundation",
+        "https://www.mongodb.com/es/resources/solutions/industries/mongodb-for-auto-manufacturing",
+        "https://www.mongodb.com/es/resources/solutions/use-cases/application-modernization-platform-datasheet",
+        "https://www.mongodb.com/es/resources/solutions/use-cases/latin-america-open-finance",
+        "https://www.mongodb.com/es/resources/solutions/use-cases/mongodb-evolves-its-portfolio-with-ai-at-the-top",
+        "https://www.mongodb.com/es/resources/solutions/use-cases/next-generation-open-finance-mongodb-agentic-ai",
+        "https://www.mongodb.com/fr-fr/resources/products/capabilities/ideal-data-foundation",
+        "https://www.mongodb.com/fr-fr/resources/solutions/industries/mongodb-for-auto-manufacturing",
+        "https://www.mongodb.com/fr-fr/resources/solutions/use-cases/application-modernization-platform-datasheet",
+        "https://www.mongodb.com/fr-fr/resources/solutions/use-cases/mongodb-evolves-its-portfolio-with-ai-at-the-top",
+        "https://www.mongodb.com/it-it/resources/products/capabilities/ideal-data-foundation",
+        "https://www.mongodb.com/it-it/resources/solutions/industries/mongodb-for-auto-manufacturing",
+        "https://www.mongodb.com/it-it/resources/solutions/use-cases/application-modernization-platform-datasheet",
+        "https://www.mongodb.com/it-it/resources/solutions/use-cases/mongodb-evolves-its-portfolio-with-ai-at-the-top",
+        "https://www.mongodb.com/ja-jp/resources/products/capabilities/mongodb-multi-document-acid-transactions",
+        "https://www.mongodb.com/ja-jp/resources/solutions/use-cases/embedding-generative-ai",
+        "https://www.mongodb.com/ko-kr/resources/products/capabilities/ideal-data-foundation",
+        "https://www.mongodb.com/ko-kr/resources/solutions/industries/mongodb-for-auto-manufacturing",
+        "https://www.mongodb.com/ko-kr/resources/solutions/use-cases/application-modernization-platform-datasheet",
+        "https://www.mongodb.com/ko-kr/resources/solutions/use-cases/mongodb-evolves-its-portfolio-with-ai-at-the-top",
+        "https://www.mongodb.com/legal/modern-slavery-statement",
+        "https://www.mongodb.com/pt-br/resources/products/capabilities/ideal-data-foundation",
+        "https://www.mongodb.com/pt-br/resources/solutions/industries/mongodb-for-auto-manufacturing",
+        "https://www.mongodb.com/pt-br/resources/solutions/use-cases/application-modernization-platform-datasheet",
+        "https://www.mongodb.com/pt-br/resources/solutions/use-cases/latin-america-open-finance",
+        "https://www.mongodb.com/pt-br/resources/solutions/use-cases/mongodb-evolves-its-portfolio-with-ai-at-the-top",
+        "https://www.mongodb.com/pt-br/resources/solutions/use-cases/next-generation-open-finance-mongodb-agentic-ai",
+        "https://www.mongodb.com/resources/basics/big-data-explained/big-data-examples-and-guidelines-enterprise-decision-maker",
+        "https://www.mongodb.com/resources/basics/big-data-explained/managing-distributed-data",
+        "https://www.mongodb.com/resources/basics/big-data-explained/online-vs-offline-big-data",
+        "https://www.mongodb.com/resources/basics/big-data-explained/open-source-data-analysis-tools",
+        "https://www.mongodb.com/resources/basics/big-data-explained/operational-vs-analytical-big-data",
+        "https://www.mongodb.com/resources/basics/databases/cloud-databases/embracing-the-cloud",
+        "https://www.mongodb.com/resources/basics/databases/cloud-databases/esg-showcase-win-in-the-cloud-with-database-as-a-service",
+        "https://www.mongodb.com/resources/basics/databases/nosql-explained/considerations-when-evaluating-nosql-databases",
+        "https://www.mongodb.com/resources/basics/databases/nosql-explained/nosql-database-challenges",
+        "https://www.mongodb.com/resources/basics/databases/nosql-explained/nosql-database-implementation",
+        "https://www.mongodb.com/resources/basics/databases/nosql-explained/nosql-databases-pros-and-cons",
+        "https://www.mongodb.com/resources/basics/databases/nosql-explained/top-5-considerations-when-evaluating-nosql-databases",
+        "https://www.mongodb.com/resources/basics/databases/nosql-explained/types-of-nosql-database-management-systems",
+        "https://www.mongodb.com/resources/basics/databases/nosql-explained/why-a-data-model-based-on-jsonlike-documents",
+        "https://www.mongodb.com/resources/basics/databases/nosql-explained/why-the-document-data-model-wp",
+        "https://www.mongodb.com/resources/basics/unstructured-data/managing-unstructured-data",
+        "https://www.mongodb.com/resources/compare/top-no-sql-databases",
+        "https://www.mongodb.com/resources/products/capabilities/webinar-mongodb-masterclass-advanced-sharding-and-cluster-troubleshooting",
+        "https://www.mongodb.com/resources/products/capabilities/webinar-mongodb-secure-by-default-and-queryable-encryption",
+        "https://www.mongodb.com/resources/products/compatibilities/mongodb-and-ibm-zsystems",
+        "https://www.mongodb.com/resources/products/integrations/apache-spark-and-mongodb-turning-analytics-into-real-time-action",
+        "https://www.mongodb.com/resources/products/integrations/data-streaming-with-apache-kafka-and-mongodb",
+        "https://www.mongodb.com/resources/products/integrations/mongodb-connector-for-apache-spark",
+        "https://www.mongodb.com/resources/products/self-managed/value-mongodb-subscriptions-datasheet",
+        "https://www.mongodb.com/resources/services/innovation-accelerator",
+        "https://www.mongodb.com/resources/services/mongodb-professional-certification",
+        "https://www.mongodb.com/resources/services/working-with-the-mongodb-customer-success-team",
+        "https://www.mongodb.com/resources/solutions/industries/future-proof-banking-enterprise-architecture",
+        "https://www.mongodb.com/resources/solutions/industries/reducing-returns-through-ai",
+        "https://www.mongodb.com/resources/solutions/industries/search-in-financial-services-optimizing-information-discovery-with-mongodb-atlas",
+        "https://www.mongodb.com/resources/solutions/industries/whats-driving-next-generation-data-platform-adoption-in-financial-services-2022",
+        "https://www.mongodb.com/resources/solutions/use-cases/generative-ai-with-atlas-on-aws",
+        "https://www.mongodb.com/resources/solutions/use-cases/mongodb-evolves-its-portfolio-with-ai-at-the-top",
+        "https://www.mongodb.com/resources/solutions/use-cases/revolutionizing-instant-payments-with-mongodb",
+        "https://www.mongodb.com/resources/use-cases/modernizing-without-disruption"
+      ],
+      "description": "Resource solutions/basics/products article pages with hero and rich body content"
+    },
+    {
+      "name": "sustainability-report",
+      "representativePages": [
+        "https://www.mongodb.com/company/sustainability/csr/fy23",
+        "https://www.mongodb.com/presentations/webinar-atlas-101-e-workshop-english"
+      ],
+      "urls": [
+        "https://www.mongodb.com/company/sustainability/csr/fy23",
+        "https://www.mongodb.com/company/sustainability/emissions-verification-report/fy23",
+        "https://www.mongodb.com/company/sustainability/environmental-policy",
+        "https://www.mongodb.com/company/sustainability/environmentally-sustainable-database-architecture-guide",
+        "https://www.mongodb.com/company/sustainability/esg/fy24",
+        "https://www.mongodb.com/company/sustainability/sustainable-procurement-policy",
+        "https://www.mongodb.com/presentations/intelligent-application-modernization-with-mongodb-atlas-and-aws-apac",
+        "https://www.mongodb.com/presentations/webinar-atlas-101-e-workshop-english",
+        "https://www.mongodb.com/resources/compare/mongodb-vs-imitators-hong-kong",
+        "https://www.mongodb.com/resources/products/fundamentals/webinar-session-3-simplify-data-processing-with-the-aggregation-framework",
+        "https://www.mongodb.com/resources/solutions/use-cases/webinar-build-real-ai-success-from-vectors-to-value-with-mongodb-atlas-on-azure/session-1"
+      ],
+      "description": "Company sustainability report/policy pages with document-style layout"
+    },
+    {
+      "name": "sustainability-detail",
+      "representativePages": [
+        "https://www.mongodb.com/company/sustainability/secr-energy-usage"
+      ],
+      "urls": [
+        "https://www.mongodb.com/company/sustainability/secr-energy-usage"
+      ],
+      "description": "Sustainability detail page (energy usage report)"
+    },
+    {
+      "name": "customer-story",
+      "representativePages": [
+        "https://www.mongodb.com/customers/apna"
+      ],
+      "urls": [
+        "https://www.mongodb.com/customers/apna",
+        "https://www.mongodb.com/customers/bazaarvoice",
+        "https://www.mongodb.com/customers/omnichat"
+      ],
+      "description": "Customer story detail pages with quote and outcome sections"
+    },
+    {
+      "name": "webinar-resource",
+      "representativePages": [
+        "https://www.mongodb.com/de-de/resources/basics/webinar-intro-to-data-modeling"
+      ],
+      "urls": [
+        "https://www.mongodb.com/de-de/resources/basics/webinar-intro-to-data-modeling",
+        "https://www.mongodb.com/de-de/resources/product/platform/webinar-intro-to-mongodb-2024",
+        "https://www.mongodb.com/de-de/resources/products/capabilities/webinar-power-up-your-queries-mongodb-aggregation-framework-in-java-script",
+        "https://www.mongodb.com/es/resources/solutions/use-cases/webinar-como-escalar-aplicacoes-modernas-com-mongodb",
+        "https://www.mongodb.com/pt-br/resources/solutions/use-cases/webinar-a-base-de-dados-de-referencia-para-a-era-da-ia",
+        "https://www.mongodb.com/pt-br/resources/solutions/use-cases/webinar-como-escalar-aplicacoes-modernas-com-mongodb",
+        "https://www.mongodb.com/resources/basics/databases/cloud-databases/webinar-the-database-and-cloud-market-in-austria",
+        "https://www.mongodb.com/resources/basics/databases/webinar-nosql-explained/tech-talk-thai-move-to-mongodb-webinar",
+        "https://www.mongodb.com/resources/industries/exploring-the-move-to-open-finance",
+        "https://www.mongodb.com/resources/industries/webinar-hyper-personalization-with-ai-and-application-modernization-financial-services",
+        "https://www.mongodb.com/resources/product/platform/webinar-atlas-performance-monitoring-advanced-quering-webinar-24-apac",
+        "https://www.mongodb.com/resources/product/platform/webinar-atlas-search-e-workshop-english",
+        "https://www.mongodb.com/resources/product/platform/webinar-building-farm-stack-apps-fast-api-react-and-mongodb",
+        "https://www.mongodb.com/resources/product/platform/webinar-continuously-updating-vector-embeddings-for-gen-ai-apps",
+        "https://www.mongodb.com/resources/product/platform/webinar-elevate-your-database-experience-with-mongodb-atlas",
+        "https://www.mongodb.com/resources/product/platform/webinar-intro-to-atlas-search/06-24",
+        "https://www.mongodb.com/resources/product/platform/webinar-intro-to-mongodb-2024",
+        "https://www.mongodb.com/resources/product/platform/webinar-intro-to-vector-search/05-24",
+        "https://www.mongodb.com/resources/product/platform/webinar-modernizing-workloads-with-mongodb-and-anyscale",
+        "https://www.mongodb.com/resources/products/capabilities/webinar-lets-explain-aggregations-amer",
+        "https://www.mongodb.com/resources/products/capabilities/webinar-mongodb-secure-by-default-apac",
+        "https://www.mongodb.com/resources/products/compatibilities/webinar-build-a-modern-app-stack-with-mongodb-and-apollo-graphql",
+        "https://www.mongodb.com/resources/products/fundamentals/webinar-ask-the-experts-schema-design-amers",
+        "https://www.mongodb.com/resources/products/fundamentals/webinar-back-to-basics-with-mongodb-webinar-hong-kong",
+        "https://www.mongodb.com/resources/products/fundamentals/webinar-get-certified-with-mongodb",
+        "https://www.mongodb.com/resources/products/integrations/webinar-gcp-vertex-ai-extension",
+        "https://www.mongodb.com/resources/products/integrations/webinar-mongodb-manufacturing-from-shop-floor-to-cloud-with-mongodb-and-kafka",
+        "https://www.mongodb.com/resources/products/platform/atlas-101-e-workshop/webinar-may-2024",
+        "https://www.mongodb.com/resources/products/platform/webinar-best-practices-for-deploying-mongodb-atlas-on-google-cloud",
+        "https://www.mongodb.com/resources/products/tools/webinar-an-introduction-to-mongodb-query-api-webinar-recording-na",
+        "https://www.mongodb.com/resources/products/tools/webinar-modernize-your-apps-with-mongodb-relational-migrator-webinar-hong-kong",
+        "https://www.mongodb.com/resources/products/tools/webinar-mongodb-compass-data-navigation-made-easy",
+        "https://www.mongodb.com/resources/solutions/industries/webinar-the-future-of-ecommerce-strategies-for-modern-retail-customer-experiences",
+        "https://www.mongodb.com/resources/solutions/use-cases/webinar-vector-search-python-builders"
+      ],
+      "description": "Webinar resource pages with registration form and description (localized)"
+    },
+    {
+      "name": "fundamentals-tutorial",
+      "representativePages": [
+        "https://www.mongodb.com/de-de/resources/products/fundamentals/create-database"
+      ],
+      "urls": [
+        "https://www.mongodb.com/de-de/resources/products/fundamentals/create-database",
+        "https://www.mongodb.com/de-de/resources/products/fundamentals/mongodb-cluster-setup",
+        "https://www.mongodb.com/es/resources/products/fundamentals/create-database",
+        "https://www.mongodb.com/es/resources/products/fundamentals/mongodb-cluster-setup",
+        "https://www.mongodb.com/fr-fr/resources/products/fundamentals/create-database",
+        "https://www.mongodb.com/fr-fr/resources/products/fundamentals/mongodb-cluster-setup",
+        "https://www.mongodb.com/it-it/resources/products/fundamentals/create-database",
+        "https://www.mongodb.com/it-it/resources/products/fundamentals/mongodb-cluster-setup",
+        "https://www.mongodb.com/ko-kr/resources/products/fundamentals/create-database",
+        "https://www.mongodb.com/ko-kr/resources/products/fundamentals/mongodb-cluster-setup",
+        "https://www.mongodb.com/pt-br/resources/products/fundamentals/create-database",
+        "https://www.mongodb.com/pt-br/resources/products/fundamentals/mongodb-cluster-setup",
+        "https://www.mongodb.com/resources/basics/databases/vercel-database"
+      ],
+      "description": "Resource products fundamentals tutorial pages (localized)"
+    },
+    {
+      "name": "case-study-localized",
+      "representativePages": [
+        "https://www.mongodb.com/de-de/solutions/customer-case-studies/bosch",
+        "https://www.mongodb.com/products/tools/compass"
+      ],
+      "urls": [
+        "https://www.mongodb.com/de-de/solutions/customer-case-studies/bosch",
+        "https://www.mongodb.com/de-de/solutions/customer-case-studies/finlex",
+        "https://www.mongodb.com/de-de/solutions/customer-case-studies/loreal",
+        "https://www.mongodb.com/de-de/solutions/customer-case-studies/vodafone",
+        "https://www.mongodb.com/es/solutions/customer-case-studies/bendigo-and-adelaide-bank",
+        "https://www.mongodb.com/es/solutions/customer-case-studies/vodafone",
+        "https://www.mongodb.com/fr-fr/solutions/customer-case-studies/bendigo-and-adelaide-bank",
+        "https://www.mongodb.com/fr-fr/solutions/customer-case-studies/bosch",
+        "https://www.mongodb.com/fr-fr/solutions/customer-case-studies/vodafone",
+        "https://www.mongodb.com/it-it/solutions/customer-case-studies/bendigo-and-adelaide-bank",
+        "https://www.mongodb.com/it-it/solutions/customer-case-studies/bosch",
+        "https://www.mongodb.com/it-it/solutions/customer-case-studies/vodafone",
+        "https://www.mongodb.com/ko-kr/solutions/customer-case-studies/bosch",
+        "https://www.mongodb.com/products/tools/compass",
+        "https://www.mongodb.com/pt-br/solutions/customer-case-studies/bendigo-and-adelaide-bank",
+        "https://www.mongodb.com/pt-br/solutions/customer-case-studies/vodafone",
+        "https://www.mongodb.com/solutions/customer-case-studies/symphony"
+      ],
+      "description": "Localized customer case study detail pages"
+    },
+    {
+      "name": "platform-overview",
+      "representativePages": [
+        "https://www.mongodb.com/de-de/solutions/developer-data-platform"
+      ],
+      "urls": [
+        "https://www.mongodb.com/de-de/solutions/developer-data-platform",
+        "https://www.mongodb.com/es/solutions/developer-data-platform",
+        "https://www.mongodb.com/fr-fr/solutions/developer-data-platform",
+        "https://www.mongodb.com/it-it/solutions/developer-data-platform",
+        "https://www.mongodb.com/ko-kr/solutions/developer-data-platform",
+        "https://www.mongodb.com/products/platform",
+        "https://www.mongodb.com/pt-br/solutions/developer-data-platform"
+      ],
+      "description": "Developer data platform overview pages (localized)"
+    },
+    {
+      "name": "consulting-program",
+      "representativePages": [
+        "https://www.mongodb.com/es/services/consulting/ai-applications-program"
+      ],
+      "urls": [
+        "https://www.mongodb.com/es/services/consulting/ai-applications-program",
+        "https://www.mongodb.com/pt-br/services/consulting/ai-applications-program"
+      ],
+      "description": "Services consulting program pages"
+    },
+    {
+      "name": "events-index",
+      "representativePages": [
+        "https://www.mongodb.com/events"
+      ],
+      "urls": [
+        "https://www.mongodb.com/events"
+      ],
+      "description": "Events index/listing page"
+    },
+    {
+      "name": "event-summit-detail",
+      "representativePages": [
+        "https://www.mongodb.com/events/mongodb-at-aws-public-sector-summit"
+      ],
+      "urls": [
+        "https://www.mongodb.com/events/mongodb-at-aws-public-sector-summit"
+      ],
+      "description": "AWS public sector summit event page"
+    },
+    {
+      "name": "event-conference-detail",
+      "representativePages": [
+        "https://www.mongodb.com/events/mongodb-at-we-are-developers"
+      ],
+      "urls": [
+        "https://www.mongodb.com/events/mongodb-at-we-are-developers"
+      ],
+      "description": "Conference event page (we-are-developers)"
+    },
+    {
+      "name": "ai-basics-article",
+      "representativePages": [
+        "https://www.mongodb.com/events/mongodb-innovation-awards/apac/official-rules",
+        "https://www.mongodb.com/ja-jp/resources/basics/artificial-intelligence/large-language-models"
+      ],
+      "urls": [
+        "https://www.mongodb.com/events/mongodb-innovation-awards/apac/official-rules",
+        "https://www.mongodb.com/events/practice-with-php/official-rules",
+        "https://www.mongodb.com/ja-jp/resources/basics/artificial-intelligence/large-language-models",
+        "https://www.mongodb.com/resources/basics/artificial-intelligence/generative-adversarial-networks",
+        "https://www.mongodb.com/resources/basics/artificial-intelligence/generative-ai-use-cases"
+      ],
+      "description": "AI/basics article and contest-rules style content pages"
+    },
+    {
+      "name": "feature-landing",
+      "representativePages": [
+        "https://www.mongodb.com/events/mongodb-local"
+      ],
+      "urls": [
+        "https://www.mongodb.com/events/mongodb-local",
+        "https://www.mongodb.com/products/capabilities/transactions",
+        "https://www.mongodb.com/products/tools/intellij",
+        "https://www.mongodb.com/services/consulting"
+      ],
+      "description": "Feature / events landing pages with hero and content sections"
+    },
+    {
+      "name": "event-city-landing",
+      "representativePages": [
+        "https://www.mongodb.com/events/mongodb-local/bengaluru"
+      ],
+      "urls": [
+        "https://www.mongodb.com/events/mongodb-local/bengaluru",
+        "https://www.mongodb.com/events/mongodb-local/london",
+        "https://www.mongodb.com/events/mongodb-local/tel-aviv"
+      ],
+      "description": "MongoDB Local city event landing pages"
+    },
+    {
+      "name": "event-subpage",
+      "representativePages": [
+        "https://www.mongodb.com/events/mongodb-local/bengaluru/faq"
+      ],
+      "urls": [
+        "https://www.mongodb.com/events/mongodb-local/bengaluru/faq",
+        "https://www.mongodb.com/events/mongodb-local/bengaluru/sponsors",
+        "https://www.mongodb.com/events/mongodb-local/london/sponsors"
+      ],
+      "description": "Event sub-pages (faq, sponsors) with supporting content"
+    },
+    {
+      "name": "event-nyc-landing",
+      "representativePages": [
+        "https://www.mongodb.com/events/mongodb-local/nyc"
+      ],
+      "urls": [
+        "https://www.mongodb.com/events/mongodb-local/nyc"
+      ],
+      "description": "MongoDB Local NYC event landing page"
+    },
+    {
+      "name": "event-sponsors-page",
+      "representativePages": [
+        "https://www.mongodb.com/events/mongodb-local/nyc/sponsors"
+      ],
+      "urls": [
+        "https://www.mongodb.com/events/mongodb-local/nyc/sponsors"
+      ],
+      "description": "Event sponsors page"
+    },
+    {
+      "name": "event-learning-path",
+      "representativePages": [
+        "https://www.mongodb.com/events/mongodb-local/post-event-learning-path"
+      ],
+      "urls": [
+        "https://www.mongodb.com/events/mongodb-local/post-event-learning-path"
+      ],
+      "description": "Event post-event learning path page"
+    },
+    {
+      "name": "event-program-detail",
+      "representativePages": [
+        "https://www.mongodb.com/events/rag-to-riches"
+      ],
+      "urls": [
+        "https://www.mongodb.com/events/rag-to-riches"
+      ],
+      "description": "Event program page (rag-to-riches)"
+    },
+    {
+      "name": "event-webinar-detail",
+      "representativePages": [
+        "https://www.mongodb.com/events/webinar/building-gen-ai-enriched-apps-with-aws-mongodb-atlas"
+      ],
+      "urls": [
+        "https://www.mongodb.com/events/webinar/building-gen-ai-enriched-apps-with-aws-mongodb-atlas"
+      ],
+      "description": "Webinar event detail page"
+    },
+    {
+      "name": "localized-resource",
+      "representativePages": [
+        "https://www.mongodb.com/ja-jp/products/platform/atlas-cloud-providers/google-cloud",
+        "https://www.mongodb.com/ja-jp/resources/basics/artificial-intelligence/retrieval-augmented-generation"
+      ],
+      "urls": [
+        "https://www.mongodb.com/ja-jp/products/platform/atlas-cloud-providers/google-cloud",
+        "https://www.mongodb.com/ja-jp/resources/basics/artificial-intelligence/retrieval-augmented-generation",
+        "https://www.mongodb.com/ja-jp/resources/languages/mean-stack"
+      ],
+      "description": "Mixed localized resource pages"
+    },
+    {
+      "name": "ai-basics-detail",
+      "representativePages": [
+        "https://www.mongodb.com/ja-jp/resources/basics/artificial-intelligence/generative-ai"
+      ],
+      "urls": [
+        "https://www.mongodb.com/ja-jp/resources/basics/artificial-intelligence/generative-ai"
+      ],
+      "description": "AI generative-ai basics detail page"
+    },
+    {
+      "name": "case-study-variant",
+      "representativePages": [
+        "https://www.mongodb.com/ko-kr/solutions/customer-case-studies/knot-worldwide"
+      ],
+      "urls": [
+        "https://www.mongodb.com/ko-kr/solutions/customer-case-studies/knot-worldwide",
+        "https://www.mongodb.com/ko-kr/solutions/customer-case-studies/michelin"
+      ],
+      "description": "Customer case study variant layout (localized)"
+    },
+    {
+      "name": "legal-index",
+      "representativePages": [
+        "https://www.mongodb.com/legal"
+      ],
+      "urls": [
+        "https://www.mongodb.com/legal"
+      ],
+      "description": "Legal index/landing page"
+    },
+    {
+      "name": "legal-document",
+      "representativePages": [
+        "https://www.mongodb.com/legal/acceptable-use-policy",
+        "https://www.mongodb.com/legal/archive/aws-marketplace-eula"
+      ],
+      "urls": [
+        "https://www.mongodb.com/legal/acceptable-use-policy",
+        "https://www.mongodb.com/legal/archive/aws-marketplace-eula",
+        "https://www.mongodb.com/legal/archive/cloud-subscription-agreement/december-2019",
+        "https://www.mongodb.com/legal/archive/cloud-subscription-agreement/june-2020",
+        "https://www.mongodb.com/legal/archive/cloud-subscription-agreement/may-2019",
+        "https://www.mongodb.com/legal/archive/customer-agreement/december-2019",
+        "https://www.mongodb.com/legal/archive/customer-agreement/june-2020",
+        "https://www.mongodb.com/legal/archive/customer-agreement/may-2018",
+        "https://www.mongodb.com/legal/archive/reseller-agreement/february-2018",
+        "https://www.mongodb.com/legal/archive/spectre-and-meltdown-security-and-performance-impact",
+        "https://www.mongodb.com/legal/archive/subscription-and-services-agreement/october-2013",
+        "https://www.mongodb.com/legal/atlas-gov-addendum/changes",
+        "https://www.mongodb.com/legal/changes-technical-and-organizational-security-measures",
+        "https://www.mongodb.com/legal/cloud-subscription-agreement/december-2020",
+        "https://www.mongodb.com/legal/cloud-subscription-agreement/june-2021",
+        "https://www.mongodb.com/legal/cloud-subscription-agreement/november-2023",
+        "https://www.mongodb.com/legal/cloud-subscription-agreement/november-2024",
+        "https://www.mongodb.com/legal/customer-agreement/december-2020",
+        "https://www.mongodb.com/legal/customer-agreement/june-2021",
+        "https://www.mongodb.com/legal/customer-agreement/november-2022",
+        "https://www.mongodb.com/legal/customer-agreement/november-2023",
+        "https://www.mongodb.com/legal/customer-agreement/november-2024",
+        "https://www.mongodb.com/legal/data-privacy-framework-statement",
+        "https://www.mongodb.com/legal/data-processing-agreement",
+        "https://www.mongodb.com/legal/data-processing-agreement/changes",
+        "https://www.mongodb.com/legal/licensing/community-edition",
+        "https://www.mongodb.com/legal/licensing/embedded-license",
+        "https://www.mongodb.com/legal/licensing/server-side-public-license",
+        "https://www.mongodb.com/legal/oem-agreement/june-2020",
+        "https://www.mongodb.com/legal/oem-agreement/may-2022",
+        "https://www.mongodb.com/legal/privacy/eu-ca-recruitment-privacy-notice",
+        "https://www.mongodb.com/legal/privacy/privacy-policy",
+        "https://www.mongodb.com/legal/production-survey-promotional-code-official-rules",
+        "https://www.mongodb.com/legal/reseller-agreement/june-2022",
+        "https://www.mongodb.com/legal/si-services-agreement",
+        "https://www.mongodb.com/legal/sla/atlas/data-federation",
+        "https://www.mongodb.com/legal/sla/cloud/stream-processing",
+        "https://www.mongodb.com/legal/sla/realm",
+        "https://www.mongodb.com/legal/support-policy/cloud",
+        "https://www.mongodb.com/legal/support-policy/government",
+        "https://www.mongodb.com/legal/support-policy/legacy",
+        "https://www.mongodb.com/legal/support-policy/lifecycles",
+        "https://www.mongodb.com/legal/support-policy/ops-manager-rapid-release",
+        "https://www.mongodb.com/legal/support-policy/software",
+        "https://www.mongodb.com/legal/terms-and-conditions/cloud",
+        "https://www.mongodb.com/legal/terms-of-use",
+        "https://www.mongodb.com/legal/terms/innovation-awards",
+        "https://www.mongodb.com/legal/terms/mongodb-days",
+        "https://www.mongodb.com/legal/terms/mongodb-days/code-of-conduct",
+        "https://www.mongodb.com/legal/terms/mongodb-event",
+        "https://www.mongodb.com/legal/terms/mongodb-live",
+        "https://www.mongodb.com/legal/trademark-usage-guidelines",
+        "https://www.mongodb.com/legal/vendors/billing-guidelines",
+        "https://www.mongodb.com/legal/vendors/purchase-of-goods-terms-and-conditions"
+      ],
+      "description": "Legal policy and agreement documents (archive, support-policy, customer-agreement)"
+    },
+    {
+      "name": "basics-concept",
+      "representativePages": [
+        "https://www.mongodb.com/legal/vendors",
+        "https://www.mongodb.com/products/platform/atlas-cloud-providers/aws/pricing"
+      ],
+      "urls": [
+        "https://www.mongodb.com/legal/vendors",
+        "https://www.mongodb.com/products/platform/atlas-cloud-providers/aws/pricing",
+        "https://www.mongodb.com/resources/basics/cloud-explained/cloud-providers",
+        "https://www.mongodb.com/resources/basics/semantic-search",
+        "https://www.mongodb.com/resources/basics/unstructured-data/analysis",
+        "https://www.mongodb.com/resources/compare/documentdb-vs-mongodb/compatibility"
+      ],
+      "description": "Resource basics concept explainer pages"
+    },
+    {
+      "name": "webinar-presentation",
+      "representativePages": [
+        "https://www.mongodb.com/presentations/webinar-atlas-101-e-workshop-english-apac-24"
+      ],
+      "urls": [
+        "https://www.mongodb.com/presentations/webinar-atlas-101-e-workshop-english-apac-24",
+        "https://www.mongodb.com/presentations/webinar-atlas-101-e-workshop-english-india-oct-24",
+        "https://www.mongodb.com/presentations/webinar-haunted-by-sql-how-mongodb-can-save-your-database-nightmares",
+        "https://www.mongodb.com/resources/products/platform/webinar-snag-mongodb-atlas-testimonial",
+        "https://www.mongodb.com/resources/products/platform/webinar-world18-enterprise-security-in-the-cloud"
+      ],
+      "description": "Presentation/webinar pages with video and abstract"
+    },
+    {
+      "name": "capability-detail",
+      "representativePages": [
+        "https://www.mongodb.com/products/capabilities/mongodb-scale"
+      ],
+      "urls": [
+        "https://www.mongodb.com/products/capabilities/mongodb-scale"
+      ],
+      "description": "Product capability detail page (mongodb-scale)"
+    },
+    {
+      "name": "basics-explainer",
+      "representativePages": [
+        "https://www.mongodb.com/products/platform/migrate-to-atlas-options",
+        "https://www.mongodb.com/resources/getting-started"
+      ],
+      "urls": [
+        "https://www.mongodb.com/products/platform/migrate-to-atlas-options",
+        "https://www.mongodb.com/resources/basics/big-data-explained/architecture",
+        "https://www.mongodb.com/resources/basics/big-data-explained/big-data-challenges",
+        "https://www.mongodb.com/resources/basics/big-data-explained/examples",
+        "https://www.mongodb.com/resources/basics/cloud-explained/cloud-elasticity-and-scalability",
+        "https://www.mongodb.com/resources/basics/cloud-explained/cloud-platform",
+        "https://www.mongodb.com/resources/basics/database-management-system",
+        "https://www.mongodb.com/resources/basics/databases/nosql-explained/advantages",
+        "https://www.mongodb.com/resources/basics/databases/nosql-explained/data-modeling",
+        "https://www.mongodb.com/resources/basics/databases/nosql-explained/when-to-use-nosql",
+        "https://www.mongodb.com/resources/basics/unstructured-data/database",
+        "https://www.mongodb.com/resources/basics/unstructured-data/examples",
+        "https://www.mongodb.com/resources/getting-started",
+        "https://www.mongodb.com/resources/products/compatibilities/deploying-a-mongodb-cluster-with-docker",
+        "https://www.mongodb.com/resources/products/mongodb-security-bulletins/archive",
+        "https://www.mongodb.com/resources/products/platform/online"
+      ],
+      "description": "Resource basics/products explainer pages with definition-style body"
+    },
+    {
+      "name": "product-updates-index",
+      "representativePages": [
+        "https://www.mongodb.com/products/updates/"
+      ],
+      "urls": [
+        "https://www.mongodb.com/products/updates/"
+      ],
+      "description": "Product updates index page"
+    },
+    {
+      "name": "product-release-notes",
+      "representativePages": [
+        "https://www.mongodb.com/products/updates/version-release"
+      ],
+      "urls": [
+        "https://www.mongodb.com/products/updates/version-release"
+      ],
+      "description": "Product version release notes page"
+    },
+    {
+      "name": "comparison-page",
+      "representativePages": [
+        "https://www.mongodb.com/resources/compare/documentdb-vs-mongodb/architecture"
+      ],
+      "urls": [
+        "https://www.mongodb.com/resources/compare/documentdb-vs-mongodb/architecture",
+        "https://www.mongodb.com/resources/compare/documentdb-vs-mongodb/deployment",
+        "https://www.mongodb.com/resources/compare/documentdb-vs-mongodb/developer",
+        "https://www.mongodb.com/resources/compare/documentdb-vs-mongodb/operations"
+      ],
+      "description": "Product comparison pages (DocumentDB vs MongoDB) with comparison tables"
+    },
+    {
+      "name": "product-resource-detail",
+      "representativePages": [
+        "https://www.mongodb.com/resources/products/alerts"
+      ],
+      "urls": [
+        "https://www.mongodb.com/resources/products/alerts"
+      ],
+      "description": "Product resource detail page (alerts)"
+    },
+    {
+      "name": "download-page",
+      "representativePages": [
+        "https://www.mongodb.com/resources/products/mongodb-version-history",
+        "https://www.mongodb.com/try/download/community",
+        "https://www.mongodb.com/try/download/tools"
+      ],
+      "urls": [
+        "https://www.mongodb.com/resources/products/mongodb-version-history",
+        "https://www.mongodb.com/try/download/community",
+        "https://www.mongodb.com/try/download/community-edition",
+        "https://www.mongodb.com/try/download/enterprise",
+        "https://www.mongodb.com/try/download/enterprise-advanced",
+        "https://www.mongodb.com/try/download/enterprise-kubernetes-operator",
+        "https://www.mongodb.com/try/download/sql-interface",
+        "https://www.mongodb.com/try/download/tools"
+      ],
+      "description": "Try/download product pages with download options and version info"
+    },
+    {
+      "name": "services-program-detail",
+      "representativePages": [
+        "https://www.mongodb.com/resources/services/mongodb-military-appreciation-program"
+      ],
+      "urls": [
+        "https://www.mongodb.com/resources/services/mongodb-military-appreciation-program"
+      ],
+      "description": "Resource services program page (military appreciation)"
+    },
+    {
+      "name": "support-page",
+      "representativePages": [
+        "https://www.mongodb.com/services/support"
+      ],
+      "urls": [
+        "https://www.mongodb.com/services/support"
+      ],
+      "description": "Services support landing page"
+    },
+    {
+      "name": "industry-apply-form",
+      "representativePages": [
+        "https://www.mongodb.com/solutions/industries/apply"
+      ],
+      "urls": [
+        "https://www.mongodb.com/solutions/industries/apply"
+      ],
+      "description": "Solutions industry apply/form page"
+    },
+    {
+      "name": "use-case-category",
+      "representativePages": [
+        "https://www.mongodb.com/solutions/use-cases/analytics"
+      ],
+      "urls": [
+        "https://www.mongodb.com/solutions/use-cases/analytics"
+      ],
+      "description": "Solutions use-case category page (analytics)"
+    },
+    {
+      "name": "use-case-detail",
+      "representativePages": [
+        "https://www.mongodb.com/solutions/use-cases/analytics/operational-analytics"
+      ],
+      "urls": [
+        "https://www.mongodb.com/solutions/use-cases/analytics/operational-analytics"
+      ],
+      "description": "Solutions use-case detail page (operational-analytics)"
+    },
+    {
+      "name": "use-case-catalog",
+      "representativePages": [
+        "https://www.mongodb.com/solutions/use-cases/catalog",
+        "https://www.mongodb.com/solutions/use-cases/content-management"
+      ],
+      "urls": [
+        "https://www.mongodb.com/solutions/use-cases/catalog",
+        "https://www.mongodb.com/solutions/use-cases/content-management",
+        "https://www.mongodb.com/solutions/use-cases/personalization"
+      ],
+      "description": "Solutions use-case catalog/listing pages"
+    },
+    {
+      "name": "use-case-modernize",
+      "representativePages": [
+        "https://www.mongodb.com/solutions/use-cases/modernize"
+      ],
+      "urls": [
+        "https://www.mongodb.com/solutions/use-cases/modernize"
+      ],
+      "description": "Solutions use-case modernize page"
+    },
+    {
+      "name": "download-releases-index",
+      "representativePages": [
+        "https://www.mongodb.com/try/download/bi-connector/releases"
+      ],
+      "urls": [
+        "https://www.mongodb.com/try/download/bi-connector/releases"
+      ],
+      "description": "Try/download releases index page"
+    },
+    {
+      "name": "download-releases",
+      "representativePages": [
+        "https://www.mongodb.com/try/download/bi-connector/releases/development"
+      ],
+      "urls": [
+        "https://www.mongodb.com/try/download/bi-connector/releases/development",
+        "https://www.mongodb.com/try/download/community-edition/releases",
+        "https://www.mongodb.com/try/download/community-edition/releases/development",
+        "https://www.mongodb.com/try/download/enterprise-advanced/releases"
+      ],
+      "description": "Try/download release listing pages"
+    },
+    {
+      "name": "download-archive",
+      "representativePages": [
+        "https://www.mongodb.com/try/download/mongosync/releases/archive"
+      ],
+      "urls": [
+        "https://www.mongodb.com/try/download/mongosync/releases/archive"
+      ],
+      "description": "Try/download release archive page"
+    }
+  ]
+}

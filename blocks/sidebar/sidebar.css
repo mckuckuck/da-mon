@@ -1,0 +1,80 @@
+/*
+ * SideBar — article rail: share buttons, author lockup, related resources.
+ * From blog + webinar + resource-article pages.
+ * Content model: stacked groups (share | author | resources), each a row.
+ * On desktop this is intended to sit beside the article body (sticky).
+ */
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: var(--mdb-space-lg);
+  font-family: var(--mdb-font-body);
+  color: var(--mdb-text-primary);
+}
+
+.sidebar .sidebar-label {
+  font-family: var(--mdb-font-body);
+  font-size: var(--mdb-fs-eyebrow);
+  font-weight: var(--mdb-fw-semibold);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--mdb-text-secondary);
+  margin-bottom: var(--mdb-space-2xs);
+}
+
+/* share row */
+.sidebar .sidebar-share {
+  display: flex;
+  gap: var(--mdb-space-sm);
+}
+
+.sidebar .sidebar-share img {
+  width: 24px;
+  height: 24px;
+}
+
+/* author lockup */
+.sidebar .sidebar-author {
+  display: flex;
+  align-items: center;
+  gap: var(--mdb-space-sm);
+}
+
+.sidebar .sidebar-author img {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--mdb-radius-circle);
+}
+
+.sidebar .sidebar-author .sidebar-author-name {
+  font-weight: var(--mdb-fw-medium);
+  font-size: var(--mdb-fs-body);
+}
+
+.sidebar .sidebar-author .sidebar-author-role {
+  font-size: var(--mdb-fs-small);
+  color: var(--mdb-text-secondary);
+}
+
+/* resources list */
+.sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.sidebar li { margin-bottom: var(--mdb-space-2xs); }
+
+.sidebar a {
+  color: var(--mdb-blue);
+  text-decoration: none;
+  font-size: var(--mdb-fs-small);
+}
+.sidebar a:hover { text-decoration: underline; }
+
+@media (width >= 900px) {
+  .sidebar {
+  position: sticky;
+  top: calc(var(--nav-height) + var(--mdb-space-md));
+}
+}

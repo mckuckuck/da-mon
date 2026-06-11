@@ -11,17 +11,103 @@
  */
 
 :root {
-  /* colors */
-  --background-color: white;
-  --light-color: #f8f8f8;
-  --dark-color: #505050;
-  --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
+  /* ============================================================
+     MongoDB.com brand design tokens
+     Sourced from Storybook CSS (fonts) + live computed styles.
+     See catalog/design-tokens/ for the full catalog & docs.
+     ============================================================ */
+
+  /* brand color */
+  --mdb-green-base: #00ed64;
+  --mdb-green-forest: #00684a;
+  --mdb-green-dark: #023430;
+  --mdb-evergreen: #001e2b;
+
+  /* text color */
+  --mdb-text-primary: #001e2b;
+  --mdb-text-secondary: #5d6c74;
+  --mdb-text-tertiary: #3d4f58;
+  --mdb-text-on-dark: #fff;
+
+  /* accent color */
+  --mdb-blue: #006cfa;
+  --mdb-purple: #b45af2;
+  --mdb-lime: #b1ff05;
+  --mdb-yellow-soft: #ffec9e;
+
+  /* surface color */
+  --mdb-surface-white: #fff;
+  --mdb-surface-offwhite: #fafbfc;
+  --mdb-surface-mist: #e7eeec;
+  --mdb-surface-teal-tint: #e3fcf7;
+  --mdb-surface-slate: #21313c;
+  --mdb-surface-evergreen: #001e2b;
+  --mdb-surface-evergreen-deep: #061621;
+
+  /* border color */
+  --mdb-border-subtle: #b8c4c2;
+  --mdb-border-rule: rgb(0 0 0 / 15%);
+
+  /* brand font families */
+  --mdb-font-heading: 'MongoDB Value Serif', 'Noto Sans KR', 'Noto Sans SC', 'Noto Sans JP', serif;
+  --mdb-font-body: 'Euclid Circular A', 'Noto Sans KR', 'Noto Sans SC', 'Noto Sans JP', -apple-system, system-ui, helvetica, arial, sans-serif;
+  --mdb-font-mono: 'Source Code Pro', ui-monospace, menlo, monospace;
+  --mdb-font-grotesk: 'Akzidenz-Grotesk Std', sans-serif;
+
+  /* brand type scale */
+  --mdb-fs-h1: 40px;
+  --mdb-fs-h2-display: 40px;
+  --mdb-fs-h2: 32px;
+  --mdb-fs-h2-compact: 24px;
+  --mdb-fs-h3: 18px;
+  --mdb-fs-body: 16px;
+  --mdb-fs-small: 14px;
+  --mdb-fs-eyebrow: 12px;
+  --mdb-fs-lead: 20px;
+
+  /* brand font weights */
+  --mdb-fw-light: 300;
+  --mdb-fw-regular: 400;
+  --mdb-fw-medium: 500;
+  --mdb-fw-semibold: 600;
+
+  /* spacing (4px base unit) */
+  --mdb-space-3xs: 4px;
+  --mdb-space-2xs: 8px;
+  --mdb-space-xs: 12px;
+  --mdb-space-sm: 16px;
+  --mdb-space-md: 24px;
+  --mdb-space-lg: 32px;
+  --mdb-space-xl: 40px;
+  --mdb-space-2xl: 48px;
+  --mdb-space-3xl: 64px;
+  --mdb-space-section: 112px;
+
+  /* radius */
+  --mdb-radius-xs: 2px;
+  --mdb-radius-sm: 4px;
+  --mdb-radius-md: 8px;
+  --mdb-radius-lg: 24px;
+  --mdb-radius-xl: 32px;
+  --mdb-radius-pill: 999px;
+  --mdb-radius-circle: 50%;
+
+  /* elevation */
+  --mdb-shadow-sm: 0 2px 4px 0 rgb(0 0 0 / 10%);
+  --mdb-shadow-md: 0 1px 6px 0 rgb(0 0 0 / 6%), 0 0 0 rgb(0 0 0 / 16%);
+  --mdb-shadow-lg: 0 0 18px 0 rgb(0 0 0 / 20%);
+
+  /* colors (mapped to brand tokens) */
+  --background-color: var(--mdb-surface-white);
+  --light-color: var(--mdb-surface-offwhite);
+  --dark-color: var(--mdb-surface-evergreen);
+  --text-color: var(--mdb-text-primary);
+  --link-color: var(--mdb-blue);
+  --link-hover-color: var(--mdb-green-forest);
 
   /* fonts */
-  --body-font-family: roboto, roboto-fallback, sans-serif;
-  --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
+  --body-font-family: var(--mdb-font-body);
+  --heading-font-family: var(--mdb-font-heading);
 
   /* body sizes */
   --body-font-size-m: 22px;
@@ -322,4 +408,18 @@ main .section.highlight {
   background-color: var(--light-color);
   margin: 0;
   padding: 40px 0;
+}
+
+main .section.dark {
+  background-color: var(--mdb-surface-evergreen);
+  color: var(--mdb-text-on-dark);
+  margin: 0;
+  padding: 40px 0;
+}
+
+main .section.dark h1,
+main .section.dark h2,
+main .section.dark h3,
+main .section.dark p {
+  color: var(--mdb-text-on-dark);
 }

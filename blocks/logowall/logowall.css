@@ -1,0 +1,56 @@
+/*
+ * LogoWall — grid/row of partner or customer logos.
+ * From the homepage hero logo strip and partner sections.
+ * Content model: each cell holds one logo image (optionally linked).
+ * Variant: .logowall.marquee animates a continuous scroll (partner carousel style).
+ */
+
+.logowall {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--mdb-space-xl);
+  padding: var(--mdb-space-lg) var(--mdb-space-lg);
+}
+
+.logowall .logowall-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logowall img {
+  max-height: 40px;
+  width: auto;
+  filter: grayscale(100%);
+  opacity: 0.75;
+  transition: opacity 0.15s ease, filter 0.15s ease;
+}
+
+.logowall a:hover img,
+.logowall .logowall-item:hover img {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+/* marquee variant — continuous horizontal scroll */
+.logowall.marquee {
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+
+.logowall.marquee .logowall-track {
+  display: flex;
+  gap: var(--mdb-space-xl);
+  animation: logowall-scroll 40s linear infinite;
+}
+
+@keyframes logowall-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .logowall.marquee .logowall-track { animation: none; }
+}

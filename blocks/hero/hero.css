@@ -5,15 +5,29 @@
 
 .hero {
   position: relative;
-  padding: 40px 24px;
+  padding: var(--mdb-space-xl) var(--mdb-space-md);
   min-height: 300px;
+  background: var(--mdb-surface-evergreen);
+  color: var(--mdb-text-on-dark);
 }
 
 .hero h1 {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  color: var(--background-color);
+  font-family: var(--mdb-font-heading);
+  font-size: var(--mdb-fs-h1);
+  font-weight: var(--mdb-fw-regular);
+  line-height: 48px;
+  color: var(--mdb-text-on-dark);
+}
+
+.hero p {
+  max-width: 1200px;
+  margin: var(--mdb-space-sm) auto 0;
+  font-family: var(--mdb-font-body);
+  font-size: var(--mdb-fs-lead);
+  color: var(--mdb-text-on-dark);
 }
 
 .hero picture {
@@ -30,8 +44,29 @@
   height: 100%;
 }
 
+.hero .button-container {
+  max-width: 1200px;
+  margin: var(--mdb-space-lg) auto 0;
+}
+
+.hero a.button {
+  font-family: var(--mdb-font-body);
+  font-weight: var(--mdb-fw-medium);
+  color: var(--mdb-evergreen);
+  background: var(--mdb-green-base);
+  border: 1px solid var(--mdb-green-forest);
+  border-radius: var(--mdb-radius-sm);
+  padding: var(--mdb-space-sm) var(--mdb-space-lg);
+}
+
+.hero a.button.secondary {
+  color: var(--mdb-text-on-dark);
+  background: transparent;
+  border: 1px solid var(--mdb-text-on-dark);
+}
+
 @media (width >= 900px) {
   .hero {
-    padding: 40px 32px;
+    padding: var(--mdb-space-xl) var(--mdb-space-lg);
   }
 }

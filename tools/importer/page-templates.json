@@ -1,0 +1,199 @@
+{
+  "metadata": {
+    "projectType": "da"
+  },
+  "templates": [
+    {
+      "name": "product-detail",
+      "urls": [
+        "https://www.mongodb.com/products/platform/atlas-database",
+        "https://www.mongodb.com/products/platform/cloud",
+        "https://www.mongodb.com/company"
+      ],
+      "description": "Product/platform pages: hero, slalom feature sections, accordion+codepanel, quotecase, card grids, FAQ, endcap. Source is Emotion CSS-in-JS (hashed css-* classes); stable hooks are .code-panel-container and [id^='accordion-tab-']; slalom/hero/cards/quotecase/endcap are heading-anchored with structural self-filtering in the parsers.",
+      "blocks": [
+        {
+          "name": "hero",
+          "instances": [
+            "body > div:has(> h1)",
+            "h1"
+          ],
+          "section": "dark"
+        },
+        {
+          "name": "codepanel",
+          "instances": [
+            ".code-panel-container"
+          ]
+        },
+        {
+          "name": "slalom",
+          "instances": [
+            "h2",
+            "h3"
+          ]
+        },
+        {
+          "name": "accordion",
+          "instances": [
+            "[id^='accordion-tab-']"
+          ]
+        },
+        {
+          "name": "quotecase",
+          "instances": [
+            "[role='tablist']",
+            "[id$='-trigger-radix-']"
+          ]
+        },
+        {
+          "name": "cards",
+          "instances": [
+            "section:has(h3)"
+          ]
+        },
+        {
+          "name": "endcap",
+          "instances": [
+            "h2"
+          ],
+          "section": "dark"
+        }
+      ]
+    },
+    {
+      "name": "blog-article",
+      "urls": [
+        "https://www.mongodb.com/company/blog/news/redefining-database-ai-why-mongodb-acquired-voyage-ai"
+      ],
+      "description": "Blog article: back-link header + H1 + date, language/CTA aside callouts, long-form rich-text body (default content), article sidebar rail (share + author + resources). Stable hooks: .aside-container for callouts, <aside>/[role=complementary] for the rail.",
+      "blocks": [
+        {
+          "name": "aside",
+          "instances": [
+            ".aside-container"
+          ]
+        },
+        {
+          "name": "sidebar",
+          "instances": [
+            "aside",
+            "[role='complementary']"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "webinar",
+      "urls": [
+        "https://www.mongodb.com/resources/products/platform/webinar-with-gcp-hong-kong"
+      ],
+      "description": "On-demand webinar: eyebrow + H1, video player (poster), description/topics/speakers body (default content), date+share sidebar rail, and a 'More like this' related-cards grid. Stable hooks: .media-container (video), <aside> (rail), <section> siblings after 'More like this' (cards). Note: hydrated DOM has poster + JS player only (no static video URL).",
+      "blocks": [
+        {
+          "name": "video",
+          "instances": [
+            ".media-container"
+          ]
+        },
+        {
+          "name": "sidebar",
+          "instances": [
+            "aside",
+            "[role='complementary']"
+          ]
+        },
+        {
+          "name": "cards",
+          "instances": [
+            "section:has(h3)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "resource-article",
+      "urls": [
+        "https://www.mongodb.com/resources/basics/databases/nosql-explained"
+      ],
+      "description": "Resource/basics article: hero (H1 + CTAs), long-form rich-text body (default content) with inline codepanel/table/embed, FAQ accordion, related-resources sidebar, end CTA. Stable hooks shared with product pages: .code-panel-container (codepanel), [id^='accordion-tab-'] (accordion); plus table.border-collapse, iframe[src*='charts.mongodb.com'].",
+      "blocks": [
+        {
+          "name": "codepanel",
+          "instances": [
+            ".code-panel-container"
+          ]
+        },
+        {
+          "name": "table",
+          "instances": [
+            "table.border-collapse"
+          ]
+        },
+        {
+          "name": "embed",
+          "instances": [
+            "iframe[src*='charts.mongodb.com']"
+          ]
+        },
+        {
+          "name": "accordion",
+          "instances": [
+            "[id^='accordion-tab-']"
+          ]
+        },
+        {
+          "name": "sidebar",
+          "instances": [
+            "aside",
+            "[role='complementary']"
+          ]
+        },
+        {
+          "name": "hero",
+          "instances": [
+            "body > div:has(> h1)",
+            "h1"
+          ],
+          "section": "dark"
+        },
+        {
+          "name": "endcap",
+          "instances": [
+            "h2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "contact",
+      "urls": [
+        "https://www.mongodb.com/company/contact"
+      ],
+      "description": "Contact page: H1 + 3-tab contact-type selector (Sales/Product&Billing/Company), chat-intro panel (default content), Marketo inquiry form (flagged for Forms workflow, captured as default content), FAQ accordion. Stable hooks: [id^='tab-'] tab buttons, .exp-faq-wrapper FAQ items (NOT the product-page accordion hook). The 'Ask MongoDB Assistant' chatbot is page chrome (out of scope).",
+      "sections": [
+        {
+          "section": 1,
+          "style": "dark",
+          "selector": "h1",
+          "description": "Dark hero: 'Contact Us' H1 + 3-tab contact-type selector + per-tab chat panel and inquiry form (gray-800/gray-1000 background)."
+        },
+        {
+          "section": 2,
+          "selector": "#exp-faq-bg",
+          "description": "Light FAQ section: 'Frequently asked questions' heading + 5 expandable Q/A pairs."
+        }
+      ],
+      "blocks": [
+        {
+          "name": "tabs",
+          "instances": ["#tab-sales", "#tab-support", "#tab-company"]
+        },
+        {
+          "name": "contact-faq",
+          "instances": [".exp-faq-wrapper"]
+        }
+      ]
+    }
+  ]
+}
