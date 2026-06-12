@@ -1,0 +1,11 @@
+{
+  "status": "success",
+  "url": "https://www.mongodb.com/cloud/atlas/register",
+  "path": "cloud/atlas/register",
+  "timestamp": "2026-06-11T20:31:56.121Z",
+  "title": "MongoDB Atlas | MongoDB",
+  "template": "register",
+  "blocks": [
+    "register-form"
+  ]
+}

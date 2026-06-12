@@ -1,0 +1,108 @@
+/*
+ * QuoteCase — customer success case: logo + stats + quote + CTA.
+ * Extracted from https://www.mongodb.com/products/platform/atlas-database "customer successes"
+ * and the homepage "Loved by builders" panel.
+ * Content model per case row: logo image | stats (number + label) | eyebrow + quote + attribution + CTA.
+ * When multiple cases are authored, JS builds a logo-tab switcher.
+ */
+
+.quotecase {
+  display: flex;
+  flex-direction: column;
+  gap: var(--mdb-space-lg);
+  padding: var(--mdb-space-2xl) var(--mdb-space-lg);
+  color: var(--mdb-text-primary);
+}
+
+/* logo tab strip (multi-case) */
+.quotecase .quotecase-tabs {
+  display: flex;
+  gap: var(--mdb-space-lg);
+  flex-wrap: wrap;
+  border-bottom: 1px solid var(--mdb-border-subtle);
+  padding-bottom: var(--mdb-space-sm);
+}
+
+.quotecase .quotecase-tab {
+  background: none;
+  border: 0;
+  padding: var(--mdb-space-2xs) var(--mdb-space-xs);
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+}
+
+.quotecase .quotecase-tab[aria-selected='true'] { opacity: 1; }
+
+.quotecase .quotecase-tab img {
+  max-height: 32px;
+  width: auto;
+}
+
+.quotecase .quotecase-panel {
+  display: none;
+  gap: var(--mdb-space-2xl);
+}
+
+.quotecase .quotecase-panel[data-active='true'] {
+  display: flex;
+  flex-direction: column;
+}
+
+/* stats */
+.quotecase .quotecase-stat-number {
+  font-family: var(--mdb-font-mono);
+  font-size: 48px;
+  font-weight: var(--mdb-fw-regular);
+  color: var(--mdb-green-forest);
+  line-height: 1.1;
+}
+
+.quotecase .quotecase-stat-label {
+  font-family: var(--mdb-font-body);
+  font-size: var(--mdb-fs-small);
+  color: var(--mdb-text-secondary);
+}
+
+/* eyebrow (industry tag) */
+.quotecase .quotecase-eyebrow {
+  font-family: var(--mdb-font-body);
+  font-size: var(--mdb-fs-eyebrow);
+  font-weight: var(--mdb-fw-semibold);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--mdb-text-secondary);
+}
+
+.quotecase blockquote,
+.quotecase .quotecase-quote {
+  font-family: var(--mdb-font-body);
+  font-size: var(--mdb-fs-lead);
+  font-weight: var(--mdb-fw-regular);
+  line-height: 1.4;
+  color: var(--mdb-text-primary);
+  margin: var(--mdb-space-sm) 0;
+}
+
+.quotecase .quotecase-attribution {
+  font-family: var(--mdb-font-body);
+  font-size: var(--mdb-fs-small);
+  color: var(--mdb-text-secondary);
+}
+
+.quotecase a.button {
+  display: inline-block;
+  font-family: var(--mdb-font-body);
+  font-weight: var(--mdb-fw-medium);
+  color: var(--mdb-blue);
+  text-decoration: none;
+  margin-top: var(--mdb-space-sm);
+}
+
+@media (width >= 900px) {
+  .quotecase .quotecase-panel[data-active='true'] {
+  flex-direction: row;
+  align-items: center;
+}
+  .quotecase .quotecase-stats { flex: 0 0 30%; }
+}

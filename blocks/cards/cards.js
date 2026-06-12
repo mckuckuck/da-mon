@@ -12,6 +12,19 @@ export default function decorate(block) {
     });
     ul.append(li);
   });
-  ul.querySelectorAll('picture > img').forEach((img) => img.closest('picture').replaceWith(createOptimizedPicture(img.src, img.alt, false, [{ width: '750' }])));
+  ul.querySelectorAll('picture > img').forEach((img) => {
+    // The AEM image optimizer (createOptimizedPicture appends ?width&format&optimize)
+    // only works for images served from the EDS origin. External/CDN images and SVGs
+    // don't honor those params and come back empty (0×0), so leave them as-is.
+    let sameOrigin = false;
+    try {
+      sameOrigin = new URL(img.src, window.location.href).origin === window.location.origin;
+    } catch (e) {
+      sameOrigin = false;
+    }
+    const isSvg = /\.svg(?:[?#]|$)/i.test(img.src);
+    if (!sameOrigin || isSvg) return;
+    img.closest('picture').replaceWith(createOptimizedPicture(img.src, img.alt, false, [{ width: '750' }]));
+  });
   block.replaceChildren(ul);
 }

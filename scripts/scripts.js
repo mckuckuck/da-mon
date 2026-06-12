@@ -10,7 +10,40 @@ import {
   loadSection,
   loadSections,
   loadCSS,
+  toClassName,
 } from './aem.js';
+
+/**
+ * Applies "Section Metadata" blocks as classes/data on their parent section.
+ *
+ * This minimal boilerplate's aem.js decorateSections() does not process section
+ * metadata, so we handle it here (in the project-owned scripts.js) before
+ * decorateSections runs. Reads each `.section-metadata` block as key/value rows,
+ * applies the `style` value(s) as classes on the section, exposes other keys as
+ * data-* attributes, then removes the block so it is never loaded as a JS block.
+ * @param {Element} main
+ */
+function decorateSectionMetadata(main) {
+  main.querySelectorAll(':scope > div > .section-metadata').forEach((blockEl) => {
+    const section = blockEl.parentElement;
+    [...blockEl.children].forEach((row) => {
+      const cells = [...row.children];
+      if (cells.length < 2) return;
+      const key = toClassName(cells[0].textContent.trim());
+      const value = cells[1].textContent.trim();
+      if (!key || !value) return;
+      if (key === 'style') {
+        value.split(',').forEach((s) => {
+          const cls = toClassName(s.trim());
+          if (cls) section.classList.add(cls);
+        });
+      } else {
+        section.dataset[key] = value;
+      }
+    });
+    blockEl.remove();
+  });
+}
 
 /**
  * Builds hero block and prepends to main in a new section.
@@ -121,6 +154,7 @@ function decorateButtons(main) {
 export function decorateMain(main) {
   decorateIcons(main);
   buildAutoBlocks(main);
+  decorateSectionMetadata(main);
   decorateSections(main);
   decorateBlocks(main);
   decorateButtons(main);
