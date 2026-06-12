@@ -11,9 +11,12 @@ export default function decorate(block) {
 
   if (textRow) {
     textRow.classList.add('slalom-text');
-    // mark links styled as buttons (single link in its own paragraph)
-    textRow.querySelectorAll('p > a:only-child').forEach((a) => {
-      a.classList.add('button');
+    // Standalone CTA links render as the MongoDB arrow text-link (secondary):
+    // a single <a> that is the sole content of its <p> or cell <div>.
+    textRow.querySelectorAll('p > a:only-child, div > a:only-child').forEach((a) => {
+      if (a.parentElement.textContent.trim() !== a.textContent.trim()) return;
+      a.classList.add('button', 'secondary');
+      a.parentElement.classList.add('button-container');
     });
   }
   if (mediaRow) mediaRow.classList.add('slalom-media');

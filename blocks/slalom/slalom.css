@@ -40,22 +40,11 @@
   width: 100%;
   height: auto;
   display: block;
+  border-radius: var(--mdb-radius-xl, 32px);
 }
 
-/* CTA — secondary outline style observed on these sections */
-.slalom .slalom-text .button,
-.slalom .slalom-text a.button {
-  display: inline-block;
-  font-family: var(--mdb-font-body);
-  font-size: var(--mdb-fs-body);
-  font-weight: var(--mdb-fw-medium);
-  color: var(--mdb-text-primary);
-  text-decoration: none;
-  padding: var(--mdb-space-sm) var(--mdb-space-lg);
-  border: 1px solid var(--mdb-evergreen);
-  border-radius: var(--mdb-radius-sm);
-  width: fit-content;
-}
+/* CTA links render as the global MongoDB arrow text-link (.button.secondary),
+   styled in styles.css — no slalom-specific override needed. */
 
 @media (width >= 900px) {
   .slalom {
