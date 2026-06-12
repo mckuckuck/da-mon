@@ -449,17 +449,16 @@ main .section.dark p {
   color: var(--mdb-text-on-dark);
 }
 
-/* Section style option: curve the bottom corners of a (typically dark) band
-   where it meets the next section. Pair with `dark` via `style: dark, rounded-bottom`. */
+/* Section style option: large curved bottom on a (typically dark) band where it
+   meets the next section — the big arch under the company hero+awards band.
+   Pair with `dark` via `style: dark, rounded-bottom`. */
 main .section.rounded-bottom {
-  border-bottom-left-radius: var(--mdb-radius-xl, 40px);
-  border-bottom-right-radius: var(--mdb-radius-xl, 40px);
+  border-bottom-left-radius: 144px;
+  border-bottom-right-radius: 144px;
 }
 
-/* Section style option: curve the right-hand corners of a band (used by the
-   "What we do" dark band, which rounds its top-right + bottom-right edges).
-   Author via `style: dark, rounded-right`. */
-main .section.rounded-right {
-  border-top-right-radius: var(--mdb-radius-xl, 40px);
-  border-bottom-right-radius: var(--mdb-radius-xl, 40px);
+/* Section style option: curve only the TOP-RIGHT corner of a band (used by the
+   "What we do" dark band). Author via `style: dark, rounded-tr`. */
+main .section.rounded-tr {
+  border-top-right-radius: 72px;
 }

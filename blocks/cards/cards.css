@@ -58,6 +58,13 @@
  * award/stat grids). No card chrome — transparent background, no border/radius —
  * and the image is a fixed ~64px icon rather than a full-width cover image.
  */
+
+/* Icon-card grids size columns to a fixed width (matching the source ~264px)
+   rather than stretching to fill, so cards stay compact. */
+.cards.icons > ul {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 264px));
+}
+
 .cards.icons > ul > li {
   display: flex;
   flex-direction: column;
@@ -81,6 +88,13 @@
 .cards.icons .cards-card-body {
   margin-left: 0;
   margin-right: 0;
+}
+
+/* Icon cards use a larger title than the default card heading. */
+.cards.icons .cards-card-body h3,
+.cards.icons .cards-card-body h4 {
+  font-size: var(--mdb-fs-h2-compact, 24px);
+  line-height: 32px;
 }
 
 /*
