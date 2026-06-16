@@ -52,6 +52,14 @@
 /* Button styling (solid green primary, green/blue arrow secondary) is inherited
    from the global brand button rules in styles.css. */
 
+/* Hero CTAs sit side by side on one row, vertically centered. */
+.hero .button-wrapper {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  margin: 0 var(--mdb-space-md) 0 0;
+}
+
 /*
  * Split variant: two-column hero with text on the left and an image on the right
  * (e.g. the company "About MongoDB" hero). The block table is one row with two
