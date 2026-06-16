@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "url": "https://www.mongodb.com/resources/products/platform/webinar-with-gcp-hong-kong",
+  "path": "resources/products/platform/webinar-with-gcp-hong-kong",
+  "timestamp": "2026-06-11T19:17:44.642Z",
+  "title": "Webinar With GCP Hong Kong | MongoDB",
+  "template": "webinar",
+  "blocks": [
+    "cards",
+    "cards",
+    "cards",
+    "cards",
+    "video",
+    "sidebar"
+  ]
+}

@@ -1,0 +1,72 @@
+/*
+ * CodePanel — tabbed code snippet panel with copy button.
+ * From https://www.mongodb.com/products/platform/atlas-database and resource articles.
+ * Content model: each authored row = one tab (label cell + code cell).
+ * A single row renders as a plain snippet (no tabs).
+ */
+
+.codepanel {
+  border-radius: var(--mdb-radius-md);
+  background: var(--mdb-surface-evergreen);
+  overflow: hidden;
+  font-family: var(--mdb-font-mono);
+}
+
+.codepanel .codepanel-tabs {
+  display: flex;
+  gap: var(--mdb-space-2xs);
+  padding: var(--mdb-space-2xs) var(--mdb-space-sm);
+  background: var(--mdb-surface-evergreen-deep);
+  overflow-x: auto;
+}
+
+.codepanel .codepanel-tab {
+  background: none;
+  border: 0;
+  cursor: pointer;
+  white-space: nowrap;
+  font-family: var(--mdb-font-body);
+  font-size: var(--mdb-fs-small);
+  color: var(--mdb-border-subtle);
+  padding: var(--mdb-space-2xs) var(--mdb-space-xs);
+  border-radius: var(--mdb-radius-sm);
+}
+
+.codepanel .codepanel-tab[aria-selected='true'] {
+  color: var(--mdb-text-on-dark);
+  background: rgb(255 255 255 / 8%);
+}
+
+.codepanel .codepanel-body { position: relative; }
+
+.codepanel .codepanel-snippet { display: none; }
+.codepanel .codepanel-snippet[data-active='true'] { display: block; }
+
+.codepanel pre,
+.codepanel code {
+  font-family: var(--mdb-font-mono);
+  font-size: var(--mdb-fs-small);
+  line-height: 1.6;
+  color: var(--mdb-text-on-dark);
+  margin: 0;
+  padding: var(--mdb-space-md);
+  white-space: pre;
+  overflow-x: auto;
+  display: block;
+}
+
+.codepanel .codepanel-copy {
+  position: absolute;
+  top: var(--mdb-space-2xs);
+  right: var(--mdb-space-2xs);
+  background: rgb(255 255 255 / 10%);
+  border: 0;
+  border-radius: var(--mdb-radius-sm);
+  color: var(--mdb-text-on-dark);
+  font-family: var(--mdb-font-body);
+  font-size: var(--mdb-fs-small);
+  padding: var(--mdb-space-3xs) var(--mdb-space-2xs);
+  cursor: pointer;
+}
+
+.codepanel .codepanel-copy:hover { background: rgb(255 255 255 / 20%); }

@@ -1,0 +1,27 @@
+{
+  "status": "success",
+  "url": "https://www.mongodb.com/",
+  "path": "index",
+  "timestamp": "2026-06-11T20:49:17.885Z",
+  "title": "MongoDB: The World’s Leading Modern Data Platform | MongoDB",
+  "template": "homepage",
+  "blocks": [
+    "hp-hero",
+    "hp-quotecase",
+    "hp-pathfinder",
+    "hp-pathfinder",
+    "hp-logowall",
+    "hp-deploy-cards",
+    "hp-usecase-tabs",
+    "hp-usecase-tabs",
+    "hp-usecase-tabs",
+    "hp-usecase-tabs",
+    "hp-usecase-tabs",
+    "hp-usecase-tabs",
+    "hp-usecase-tabs",
+    "hp-usecase-tabs",
+    "hp-skills-cards",
+    "hp-skills-cards",
+    "hp-skills-cards"
+  ]
+}

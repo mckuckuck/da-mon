@@ -1,0 +1,92 @@
+/*
+ * EndCap — end-of-page conversion CTA section.
+ * Extracted from https://www.mongodb.com/products/platform/atlas-database "Get started with Atlas today".
+ * Content model: col 1 = heading + subhead + CTAs; col 2 = optional benefit list.
+ * Dark (evergreen) surface by default; .endcap.light for light surface.
+ */
+
+.endcap {
+  display: flex;
+  flex-direction: column;
+  gap: var(--mdb-space-xl);
+  padding: var(--mdb-space-section) var(--mdb-space-lg);
+  background: var(--mdb-surface-evergreen);
+  color: var(--mdb-text-on-dark);
+  border-radius: var(--mdb-radius-xl);
+}
+
+.endcap h2 {
+  font-family: var(--mdb-font-heading);
+  font-size: var(--mdb-fs-h2);
+  font-weight: var(--mdb-fw-regular);
+  color: var(--mdb-text-on-dark);
+  margin: 0 0 var(--mdb-space-md);
+}
+
+.endcap p {
+  font-family: var(--mdb-font-body);
+  font-size: var(--mdb-fs-body);
+  color: var(--mdb-text-on-dark);
+  margin: 0 0 var(--mdb-space-md);
+}
+
+.endcap ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.endcap li {
+  font-family: var(--mdb-font-body);
+  font-size: var(--mdb-fs-lead);
+  font-weight: var(--mdb-fw-regular);
+  color: var(--mdb-text-on-dark);
+  margin-bottom: var(--mdb-space-2xs);
+}
+
+.endcap .button-group {
+  display: flex;
+  gap: var(--mdb-space-sm);
+  flex-wrap: wrap;
+}
+
+/* Primary CTA — spring green on evergreen */
+.endcap a.button {
+  display: inline-block;
+  font-family: var(--mdb-font-body);
+  font-size: var(--mdb-fs-body);
+  font-weight: var(--mdb-fw-medium);
+  text-decoration: none;
+  padding: var(--mdb-space-sm) var(--mdb-space-lg);
+  border-radius: var(--mdb-radius-sm);
+  color: var(--mdb-evergreen);
+  background: var(--mdb-green-base);
+  border: 1px solid var(--mdb-green-forest);
+}
+
+/* Secondary CTA — outline */
+.endcap a.button.secondary {
+  color: var(--mdb-text-on-dark);
+  background: transparent;
+  border: 1px solid var(--mdb-text-on-dark);
+}
+
+.endcap.light {
+  background: var(--mdb-surface-offwhite);
+  color: var(--mdb-text-primary);
+}
+
+.endcap.light h2,
+.endcap.light p,
+.endcap.light li { color: var(--mdb-text-primary); }
+
+@media (width >= 900px) {
+  .endcap {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--mdb-space-3xl);
+}
+
+  .endcap > div { flex: 1; }
+}

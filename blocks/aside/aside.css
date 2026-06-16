@@ -1,0 +1,63 @@
+/*
+ * Aside — inline callout / note box (Next Steps, Deep Dive, Tip, Error).
+ * From the blog/article pages (e.g. the "also available in" + closing-CTA callouts).
+ * Content model: optional icon + title in row 1, body content in row 2 (or single cell).
+ * Variants: .aside.tip .aside.deep-dive .aside.next-steps .aside.error
+ */
+
+.aside {
+  display: flex;
+  gap: var(--mdb-space-sm);
+  padding: var(--mdb-space-md);
+  margin: var(--mdb-space-lg) 0;
+  border-radius: var(--mdb-radius-md);
+  border-left: 4px solid var(--mdb-green-forest);
+  background: var(--mdb-surface-teal-tint);
+  color: var(--mdb-text-primary);
+  font-family: var(--mdb-font-body);
+}
+
+.aside .aside-icon img {
+  width: 32px;
+  height: 32px;
+}
+
+.aside .aside-body { flex: 1; }
+
+.aside .aside-body :is(h3, h4, h5, h6, strong) {
+  font-family: var(--mdb-font-body);
+  font-size: var(--mdb-fs-h3);
+  font-weight: var(--mdb-fw-medium);
+  color: var(--mdb-text-primary);
+  margin: 0 0 var(--mdb-space-2xs);
+}
+
+.aside .aside-body p {
+  font-size: var(--mdb-fs-body);
+  color: var(--mdb-text-primary);
+  margin: 0 0 var(--mdb-space-2xs);
+}
+
+.aside .aside-body p:last-child { margin-bottom: 0; }
+.aside a { color: var(--mdb-blue); }
+
+/* Variants */
+.aside.tip {
+  border-left-color: var(--mdb-green-base);
+  background: var(--mdb-surface-teal-tint);
+}
+
+.aside.deep-dive {
+  border-left-color: var(--mdb-blue);
+  background: var(--mdb-surface-offwhite);
+}
+
+.aside.next-steps {
+  border-left-color: var(--mdb-green-forest);
+  background: var(--mdb-surface-mist);
+}
+
+.aside.error {
+  border-left-color: #db3030;
+  background: #fdeeee;
+}

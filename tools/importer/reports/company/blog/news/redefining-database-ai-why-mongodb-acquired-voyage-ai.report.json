@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "url": "https://www.mongodb.com/company/blog/news/redefining-database-ai-why-mongodb-acquired-voyage-ai",
+  "path": "company/blog/news/redefining-database-ai-why-mongodb-acquired-voyage-ai",
+  "timestamp": "2026-06-11T18:50:20.560Z",
+  "title": "Redefining The Database For AI: Why MongoDB Acquired Voyage AI | MongoDB",
+  "template": "blog-article",
+  "blocks": [
+    "aside",
+    "aside",
+    "sidebar"
+  ]
+}

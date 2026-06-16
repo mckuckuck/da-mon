@@ -1,0 +1,29 @@
+{
+  "status": "success",
+  "url": "https://www.mongodb.com/products/platform/cloud",
+  "path": "products/platform/cloud",
+  "timestamp": "2026-06-11T19:18:02.446Z",
+  "title": "MongoDB Cloud | MongoDB",
+  "template": "product-detail",
+  "blocks": [
+    "cards",
+    "cards",
+    "cards",
+    "cards",
+    "cards",
+    "hero",
+    "endcap",
+    "endcap",
+    "slalom",
+    "slalom",
+    "slalom",
+    "slalom",
+    "slalom",
+    "slalom",
+    "slalom",
+    "slalom",
+    "slalom",
+    "slalom",
+    "slalom"
+  ]
+}
