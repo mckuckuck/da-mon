@@ -126,19 +126,6 @@
   --nav-height: 64px;
 }
 
-/* fallback fonts */
-@font-face {
-  font-family: roboto-condensed-fallback;
-  size-adjust: 88.82%;
-  src: local('Arial');
-}
-
-@font-face {
-  font-family: roboto-fallback;
-  size-adjust: 99.529%;
-  src: local('Arial');
-}
-
 @media (width >= 900px) {
   :root {
     /* body sizes */
@@ -457,8 +444,10 @@ main .section.rounded-bottom {
   border-bottom-right-radius: 144px;
 }
 
-/* Section style option: curve only the TOP-RIGHT corner of a band (used by the
-   "What we do" dark band). Author via `style: dark, rounded-tr`. */
-main .section.rounded-tr {
+/* Section style option: curve the right-hand corners of a band — top-right and
+   bottom-right (used by the "What we do" dark band). Author via
+   `style: dark, rounded-right`. */
+main .section.rounded-right {
   border-top-right-radius: 72px;
+  border-bottom-right-radius: 72px;
 }

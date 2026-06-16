@@ -59,10 +59,24 @@
  * and the image is a fixed ~64px icon rather than a full-width cover image.
  */
 
-/* Icon-card grids size columns to a fixed width (matching the source ~264px)
-   rather than stretching to fill, so cards stay compact. */
+/* Icon-card grids flow up to 4 per row (matching the source). Columns shrink to
+   fit so a 4-card grid sits on one line at 1024px and 8-card grids form rows of 4.
+   1 col on mobile, 2 at the small breakpoint, 4 from the lg breakpoint. */
 .cards.icons > ul {
-  grid-template-columns: repeat(auto-fit, minmax(220px, 264px));
+  grid-template-columns: minmax(0, 264px);
+  justify-content: start;
+}
+
+@media (width >= 600px) {
+  .cards.icons > ul {
+    grid-template-columns: repeat(2, minmax(0, 264px));
+  }
+}
+
+@media (width >= 900px) {
+  .cards.icons > ul {
+    grid-template-columns: repeat(4, minmax(0, 264px));
+  }
 }
 
 .cards.icons > ul > li {
@@ -132,4 +146,16 @@
 
 .cards.icons.bordered .cards-card-body {
   margin: 0;
+}
+
+/* Bordered cards stretch to fill the row (rather than capping at the icon-card
+   264px) — 1 col on mobile, 3 across from the lg breakpoint. */
+.cards.icons.bordered > ul {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+@media (width >= 900px) {
+  .cards.icons.bordered > ul {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }
