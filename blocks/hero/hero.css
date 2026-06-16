@@ -52,12 +52,31 @@
 /* Button styling (solid green primary, green/blue arrow secondary) is inherited
    from the global brand button rules in styles.css. */
 
-/* Hero CTAs sit side by side on one row, vertically centered. */
+/* Hero CTAs sit side by side on one row, vertically centered, with a clear gap
+   between the primary button and the secondary arrow link. */
 .hero .button-wrapper {
   display: inline-flex;
   align-items: center;
   vertical-align: middle;
-  margin: 0 var(--mdb-space-md) 0 0;
+  margin: 0;
+}
+
+/* A CTA wrapper that follows another sits to its right with a clear gap. */
+.hero .button-wrapper + .button-wrapper {
+  margin-left: var(--mdb-space-2xl);
+}
+
+/* Hero secondary CTA (e.g. "Press Room"): white label with a green arrow.
+   Specificity matched to the global `.section.dark a.button.secondary` rule so
+   the white label wins over the dark-section green. */
+main .section.dark .hero a.button.secondary,
+main .section.dark .hero a.button.secondary:hover,
+main .section.dark .hero a.button.secondary:focus-visible {
+  color: var(--mdb-text-on-dark);
+}
+
+main .section.dark .hero a.button.secondary::after {
+  border-color: var(--mdb-green-base);
 }
 
 /*
